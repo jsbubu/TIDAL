@@ -9,7 +9,14 @@ Contient :
 
 
 ## 2. Page de création de compte
-*
+* Nom
+* Prénom
+* Adresse mail
+* Numero de tel 
+* Date de naissance
+* Login
+* Mot de passe
+* Captchat 
 ## 3. Page du panier
 ## 4. Page de compte 
 ## 5. A propos 
