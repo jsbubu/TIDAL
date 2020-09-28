@@ -8,4 +8,4 @@
 ## 6. Contactez nous
 ## 7. (comment fonctionne le site ?)
 ## 8. Page template produit
-## 9. Formulaire ajout produit
+## 9. Formulaire ajout produit (Optionnel)
