@@ -18,6 +18,11 @@ Contient :
 * Mot de passe
 * Captchat 
 ## 3. Page du panier
+* Liste de tous les produits
+* Pour chaque produit
+  * Image du produit
+  * Quantité de ce produit dans le panier
+  * 
 ## 4. Page de compte 
 ## 5. A propos 
 * Description 
