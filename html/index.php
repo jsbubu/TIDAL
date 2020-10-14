@@ -1,5 +1,5 @@
 <?php
-echo "Bienvenue chez Trägront ! <br/>";
-echo "Yééééé";
-echo "NE JAMAIS OUBLIÉ: ON A EU 19/20 EN ECO"
+echo "Une petite fille va voir son père en pleurant : <br/>
+- Papa ! Tout le monde se moque de moi à l’école parce que j’ai une grande bouche !<br/>
+- Ne les écoute pas, ils disent n’importe quoi. Allez, prends ta pelle et bois ta soupe !"
 ?>
