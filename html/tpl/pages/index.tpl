@@ -1,6 +1,11 @@
-<div>
-      Le contenu de notre page index.tpl
-      C'est le corp de la page
 
-      Ma variable vaut {$nomDeMaVariableSousSmarty} 
+<div class="texte">
+      <h1>Trägront</h1>
+      <p style="font-style: italic;">La nouveauté dont vous avez besoin</p>
 </div>
+<div class="texte">
+      <p> Meubles connectés et respectueux de l'environnement </p>
+      <p> </p>
+      <p> Ma variable vaut {$nomDeMaVariableSousSmarty} </p>
+</div> 
+      
