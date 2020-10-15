@@ -18,6 +18,7 @@ then
         rm -r /var/www/html
         mv /home/ubuntu/TIDAL/html /var/www/
         rm -r /home/ubuntu/TIDAL
+        chmod 777 /var/www/html/templates_c
         echo "Le dossier html a bien été remplacé " >> /home/ubuntu/log_script.txt
         echo " ">> /home/ubuntu/log_script.txt
 else
