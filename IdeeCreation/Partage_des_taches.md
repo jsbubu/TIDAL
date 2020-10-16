@@ -8,5 +8,5 @@
 |   Page template produit   |   J-S   |
 |   Formulaire ajout produit   |   J-S   |
 |   Header/Footer   |   J-S  |   
-|   Mise en place de l'architecture du site   |   Sur le papier : tous le monde, dans les fait : Loris  |
+|   Mise en place de l'architecture du site   |   Sur le papier : tous le monde, dans les faits : Loris  |
 |   l   |   l   |
