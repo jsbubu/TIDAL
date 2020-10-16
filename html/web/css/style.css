@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url("/css/Raleway.ttf") format("truetype");
+    src: url("web/css/Raleway.ttf") format("truetype");
 }
 
 body 
