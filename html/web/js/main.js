@@ -19,7 +19,7 @@ function temperature(ville, i){
 
 $(function(){
 
-    fetch("/json/liste.json")
+    fetch("web/json/liste.json")
     .then(function(resp){
     return resp.json();
     })
