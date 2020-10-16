@@ -7,7 +7,7 @@
                 "description" : "Armoire avec tablette tactile et enceinte intégrée. Cette armoire détecte les habits et propose des tenues.",
                 "prixDepart" : 2000,
                 "prixJour" : 550,
-                "image" : "image/oslo.jpg",
+                "image" : "web/img/oslo.jpg",
                 "filtre" : "Artique"
 
             },
@@ -18,7 +18,7 @@
                 "description" : "Bureau Stockholm bluetooth avec enceinte intégrée",
                 "prixDepart" : 600,
                 "prixJour" : 500,
-                "image" : "image/stockholm.jpg",
+                "image" : "web/img/stockholm.jpg",
                 "filtre" : "Amérique"
 
             },
@@ -29,7 +29,7 @@
                 "description" : "Bureau Longyearbyen bluetooth avec enceinte et tablette intégrées",
                 "prixDepart" : 700,
                 "prixJour" : 400,
-                "image" : "image/longyearbyen.jpg",
+                "image" : "web/img/longyearbyen.jpg",
                 "filtre" : "Amérique"
 
             },
@@ -40,7 +40,7 @@
                 "description" : "Commode Vancouver avec tablette tactile intégrée. Cette commode détecte les habits et propose des tenues.",
                 "prixDepart" : 1000,
                 "prixJour" : 3000,
-                "image" : "image/vancouver.jpg",
+                "image" : "web/img/vancouver.jpg",
                 "filtre" : "Europe"
 
             },
@@ -51,7 +51,7 @@
                 "description" : "Table de nuit bluetooth avec enceinte intégrée",
                 "prixDepart" : 200,
                 "prixJour" : 600,
-                "image" : "image/svolvaer.jpg",
+                "image" : "web/img/svolvaer.jpg",
                 "filtre" : "Amérique"
 
             },
@@ -62,7 +62,7 @@
                 "description" : "Table Reykjavik avec tablette, enceinte, prises secteur et réseau intégrées",
                 "prixDepart" : 1200,
                 "prixJour" : 800,
-                "image" : "image/reykjavik.jpg",
+                "image" : "web/img/reykjavik.jpg",
                 "filtre" : "Amérique"
 
             }
