@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    title>Trägront</title>
+    <title>Trägront</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="/web/css/base.css" media="screen" />
     <link rel="shortcut icon" href="/web/images/favicon.ico" />
