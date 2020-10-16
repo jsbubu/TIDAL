@@ -24,7 +24,7 @@
                     <a href="/html/reservation.html?id=reykjavik">Table Reykjavik</a>
                 </div>
             </li>
-            <li><a href="">Contact</a></li>
+            <li><a  href="findex.php" target="open_contact()">Contact</a></li>
             <li style="float: right;">
                 <a href="/index.html">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
