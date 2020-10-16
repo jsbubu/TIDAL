@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<body>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
@@ -9,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trägront - Accueil</title>
 </head>
+<body>
 <header>
     <nav>
         <ul>
