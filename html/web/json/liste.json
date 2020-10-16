@@ -1,0 +1,70 @@
+{
+    "villes" :
+        {
+            "oslo":
+            {
+                "name" : "Armoire Oslo",
+                "description" : "Armoire avec tablette tactile et enceinte intégrée. Cette armoire détecte les habits et propose des tenues.",
+                "prixDepart" : 2000,
+                "prixJour" : 550,
+                "image" : "image/oslo.jpg",
+                "filtre" : "Artique"
+
+            },
+
+            "stockholm":
+            {
+                "name" : "Bureau Stockholm",
+                "description" : "Bureau Stockholm bluetooth avec enceinte intégrée",
+                "prixDepart" : 600,
+                "prixJour" : 500,
+                "image" : "image/stockholm.jpg",
+                "filtre" : "Amérique"
+
+            },
+
+            "longyearbyen":
+            {
+                "name" : "Bureau Longyearbyen",
+                "description" : "Bureau Longyearbyen bluetooth avec enceinte et tablette intégrées",
+                "prixDepart" : 700,
+                "prixJour" : 400,
+                "image" : "image/longyearbyen.jpg",
+                "filtre" : "Amérique"
+
+            },
+
+            "vancouver":
+            {
+                "name" : "Commode Vancouver",
+                "description" : "Commode Vancouver avec tablette tactile intégrée. Cette commode détecte les habits et propose des tenues.",
+                "prixDepart" : 1000,
+                "prixJour" : 3000,
+                "image" : "image/vancouver.jpg",
+                "filtre" : "Europe"
+
+            },
+
+            "svolvaer":
+            {
+                "name" : "Table de nuit Svolvaer",
+                "description" : "Table de nuit bluetooth avec enceinte intégrée",
+                "prixDepart" : 200,
+                "prixJour" : 600,
+                "image" : "image/svolvaer.jpg",
+                "filtre" : "Amérique"
+
+            },
+
+            "reykjavik":
+            {
+                "name" : "Table Reykjavik",
+                "description" : "Table Reykjavik avec tablette, enceinte, prises secteur et réseau intégrées",
+                "prixDepart" : 1200,
+                "prixJour" : 800,
+                "image" : "image/reykjavik.jpg",
+                "filtre" : "Amérique"
+
+            }
+        }
+}
