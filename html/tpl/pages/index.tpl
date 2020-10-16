@@ -7,6 +7,11 @@
         <p>Envie de changer votre intérieur ? Envie de technologie ? Tout en respectant l'environnement ? Laissez-vous séduire par notre gamme de meubles connectés. Trägront c'est l'esprit nordique qui saura raviver votre maison.</p>
     </div>
     <div class="texte">
+    <div class="texte">
+      <p> Meubles connectés et respectueux de l'environnement </p>
+      <p> </p>
+      <p> Ma variable vaut {$nomDeMaVariableSousSmarty} </p>
+    </div> 
         <h2>Filtres :</h2>
         <button onclick="filtre('Tout')">Tout</button>
         <button onclick="filtre('Amérique')">Table</button>
@@ -93,14 +98,3 @@
     <script src="/js/main.js"></script>
     <!-- Bouton -->
     <script src="/js/bouton.js"></script>
-    
-<div class="texte">
-      <h1>Trägront</h1>
-      <p style="font-style: italic;">La nouveauté dont vous avez besoin</p>
-</div>
-<div class="texte">
-      <p> Meubles connectés et respectueux de l'environnement </p>
-      <p> </p>
-      <p> Ma variable vaut {$nomDeMaVariableSousSmarty} </p>
-</div> 
-      
