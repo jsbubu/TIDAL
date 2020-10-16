@@ -12,7 +12,7 @@
 <header>
     <nav>
         <ul>
-            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="index.php">Accueil</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Meubles</a>
                 <div class="dropdown-content">
@@ -24,7 +24,7 @@
                     <a href="/html/reservation.html?id=reykjavik">Table Reykjavik</a>
                 </div>
             </li>
-            <li><a href="http://tragront.freeboxos.fr/contact">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li style="float: right;">
                 <a href="/index.html">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
