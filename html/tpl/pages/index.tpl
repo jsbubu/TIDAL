@@ -8,8 +8,6 @@
     </div>
     <div class="texte">
     <div class="texte">
-      <p> Meubles connectés et respectueux de l'environnement </p>
-      <p> </p>
       <p> Ma variable vaut {$nomDeMaVariableSousSmarty} </p>
     </div> 
         <h2>Filtres :</h2>
@@ -23,7 +21,7 @@
     <div class="grid-container-destination">
         <div id="grid-item-destination1">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=oslo"><figure><img id="image1" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=oslo"><figure><img id="image1" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1"><span class="pays1"></span></div>
@@ -36,7 +34,7 @@
         </div>
         <div id="grid-item-destination2">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=stockholm"><figure><img id="image2" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=stockholm"><figure><img id="image2" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="item1"><span class="pays2"></span></div>
                         <div class="item2"><span class="prixDepart2"></span></div>
@@ -47,7 +45,7 @@
         </div>
         <div id="grid-item-destination3">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=longyearbyen"><figure><img id="image3" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=longyearbyen"><figure><img id="image3" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="item1"><span class="pays3"></span></div>
                         <div class="item2"><span class="prixDepart3"></span></div>
@@ -58,7 +56,7 @@
         </div>
         <div id="grid-item-destination4">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=vancouver"><figure><img id="image4" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=vancouver"><figure><img id="image4" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="item1"><span class="pays4"></span></div>
                         <div class="item2"><span class="prixDepart4"></span></div>
@@ -69,7 +67,7 @@
         </div>
         <div id="grid-item-destination5">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=svolvaer"><figure><img id="image5" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=svolvaer"><figure><img id="image5" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="item1"><span class="pays5"></span></div>
                         <div class="item2"><span class="prixDepart5"></span></div>
@@ -80,7 +78,7 @@
         </div>
         <div id="grid-item-destination6">
             <div class="grid-content-destination">
-                <a href="/html/reservation.html?id=reykjavik"><figure><img id="image6" src="" style="width:100%;"></figure>
+                <a href="/tpl/reservation.html?id=reykjavik"><figure><img id="image6" src="" style="width:100%;"></figure>
                     <div class="grid-destination">
                         <div class="item1"><span class="pays6"></span></div>
                         <div class="item2"><span class="prixDepart6"></span></div>
@@ -95,6 +93,6 @@
         <a id="button"></a>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="web/js/main.js"></script>
     <!-- Bouton -->
-    <script src="/js/bouton.js"></script>
+    <script src="web/js/bouton.js"></script>
