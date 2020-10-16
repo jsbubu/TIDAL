@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<body>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
