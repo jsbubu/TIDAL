@@ -5,9 +5,6 @@
     {$product.name}
        
     {$offer.description}
-
-
-       Voir plus d'info
-     
+    echo "\n";
 
 {/foreach}
