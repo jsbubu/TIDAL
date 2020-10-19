@@ -22,4 +22,7 @@ define('_TPL_', _PATH_ . 'tpl/');
 // Define du dossier des logs
 define('_LOGS_', _PATH_ . 'logs/');
 
+// Define du dossier des entités
+define('_ENT_', _PATH_ . 'entity/');
+
 ?>

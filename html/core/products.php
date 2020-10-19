@@ -19,8 +19,10 @@ class products
     } 
 
     //Ajout d'un produit dans la base de donnée
-    public function addOneProduct(){
-
+    public function addOneProduct($product){
+        $bdd = new PDO("mysql:host=localhost;dbname=tragront;charset=utf8", "loris", "Ilikefrance19/05/1999");
+        $bdd->query("INSERT INTO Products (name,description,price,image,img_description) VALUES ('$product.name','$product.description',
+        '$product.price','$product.image_name','$product.image_desc')");
     }
 }
 ?>
