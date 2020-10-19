@@ -10,6 +10,6 @@ if(isset($_POST['send'])){
     $nom = htmlspecialchars($_POST['nom']);
     $price = $_POST['price'];
     $prod = new product($nom,$description,$price,$image_name,$image_desc);
-    products::addOneProduct($prod);
+    products::addOneProduct($nom,$description,$price,$image_name,$image_desc);
 }
 ?>
