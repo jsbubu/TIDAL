@@ -2,7 +2,7 @@
 {foreach from=$products item=product}
      
     
-    {$product.name} 
-    {$offer.description}<br>
+    {$product.name}  
+    {$product.description}<br>
 
 {/foreach}
