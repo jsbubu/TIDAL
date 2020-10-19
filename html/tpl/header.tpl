@@ -12,7 +12,7 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
+            <li><a href="index.php?page=home">Accueil</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Meubles</a>
                 <div class="dropdown-content">
@@ -24,10 +24,10 @@
                     <a href="/html/reservation.html?id=reykjavik">Table Reykjavik</a>
                 </div>
             </li>
-            <li><a  href="index.php?page=contact" target="main_ifarme">Contact</a></li>
-            <li><a  href="index.php?page=test" target="main_ifarme">Test</a></li>
+            <li><a  href="index.php?page=contact">Contact</a></li>
+            <li><a  href="index.php?page=test">Test</a></li>
             <li style="float: right;">
-                <a href="/index.html">
+                <a href="index.php?page=home">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
                 </a>
             </li>
