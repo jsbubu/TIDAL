@@ -3,7 +3,7 @@ class products
 {
     //Récuperer tout les produits
     public function getAll(){
-        global $bdd;
+        $bdd = new PDO("mysql:host=localhost;dbname=tragront;charset=utf8", "loris", "Ilikefrance19/05/1999");
         $res = $bdd->query('SELECT * FROM products')->fetchAll(PDO::FETCH_ASSOC);
         return ($res);
     } 
