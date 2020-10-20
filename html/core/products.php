@@ -22,6 +22,11 @@ class products
     public function addOneProduct($nom,$description,$price,$image_name,$image_desc){
         global $bdd;
         $bdd->query("INSERT INTO Products (name,description,price,image,img_description) VALUES ('$nom','$description','$price','$image_name','$image_desc')");
+        if($bdd){
+            echo "Fichier uploadé avec succès.";
+        }else{
+            echo "Échec d'upload du fichier.";
+        } 
     }
 }
 ?>
