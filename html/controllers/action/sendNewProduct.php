@@ -1,7 +1,7 @@
 <?php
 require_once(_ENT_.'product');
 
-if(isset($_POST['send'])){
+if(isset($_POST['submit'])){
     //Récupération du nom de l'image
     $image_name = $_FILES['image']['name'];
     //Récupération de la description de l'image
