@@ -1,4 +1,4 @@
-<form method="POST" action="sendNewProduct" enctype="multipart/form-data">
+<form method="POST" action="index.php?action=sendNewProduct" enctype="multipart/form-data">
 
     <div>
         <label for="nom">Nom</label>
