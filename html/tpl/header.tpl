@@ -26,8 +26,8 @@
             </li>
             <li><a  href="index.php?page=contact">Contact</a></li>
             <li><a  href="index.php?page=test">Test</a></li>
+            <li><a  href="index.php?page=createProduct">Ajout</a></li>
             <li style="float: right;">
-                <li><a  href="index.php?page=createProduct">Ajout</a></li>
                 <a href="index.php?page=home">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
                 </a>
