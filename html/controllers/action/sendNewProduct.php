@@ -1,5 +1,4 @@
 <?php
-require_once(_ENT_.'product');
 
 if(isset($_POST['send'])){
     //Récupération du nom de l'image
