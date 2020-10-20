@@ -12,7 +12,7 @@ if(isset($_POST['send'])){
     $nom = htmlspecialchars($_POST['nom']);
     //Récupération du Prix
     $price = $_POST['price'];
-    $prod = new product($nom,$description,$price,$image_name,$image_desc);
+    //$prod = new product($nom,$description,$price,$image_name,$image_desc);
     products::addOneProduct($nom,$description,$price,$image_name,$image_desc);
 }
 ?>
