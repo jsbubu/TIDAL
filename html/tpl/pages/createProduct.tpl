@@ -7,7 +7,7 @@
     </div>
     <div>
             <label for="nom">Description</label>
-            <input type="text" id="demande" name="description" value="" size="50" maxlength="50"/>
+            <input type="text" id="demande" name="description" value="" size="500" maxlength="500"/>
             <br />
     </div>
     <div>
@@ -24,8 +24,7 @@
                 name="image_desc"
                 cols="40"
                 rows="4"
-                placeholder="Insérez une description pour votre image">
-            </textarea>
+                placeholder="Insérez une description pour votre image"></textarea>
         </div>
         <button type="submit" name="send">Envoyer</button>
     </div>
