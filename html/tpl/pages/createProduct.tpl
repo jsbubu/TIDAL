@@ -11,6 +11,15 @@
             <br />
     </div>
     <div>
+            <SELECT name="filtre" size="1">
+                <OPTION selected>Aucun
+                <OPTION>Table
+                <OPTION>Armoire
+                <OPTION>Commode
+            </SELECT>
+            <br />
+    </div>
+    <div>
             <label for="nom">Prix</label>
             <input type="number" id="demande" name="price"/>
             <br />
