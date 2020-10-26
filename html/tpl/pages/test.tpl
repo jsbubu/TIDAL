@@ -3,7 +3,7 @@
     <div id="grid-item-destination1">
             <div class="grid-content-destination">
                 <a href="/tpl/reservation.html?id=oslo">
-                <img src="{$product.image}"/>
+                <img id="img_size" src="{$product.image}"/>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$product.name}</span></div>
