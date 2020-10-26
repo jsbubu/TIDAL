@@ -7,7 +7,7 @@
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$product.name}</span></div>
-                            <div class="item2">A partir de {$product.price}</span></div>
+                            <div class="item2">Au prix de {$product.price}€</span></div>
                         </div> 
                     </div>
                 </a>
