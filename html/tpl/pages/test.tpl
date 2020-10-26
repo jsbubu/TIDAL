@@ -4,6 +4,6 @@
     
     {$product.name}  
     {$product.description}
-    {$product.image'.base64_encode()'}
+    {$product.image'}
 
 {/foreach}
