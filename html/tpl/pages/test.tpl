@@ -2,7 +2,8 @@
 {foreach from=$products item=product}
     <div id="grid-item-destination1">
             <div class="grid-content-destination">
-                <a href="/tpl/reservation.html?id=oslo"><?php echo ('<img src="'.$product['image'].'"/>'); ?>
+                <a href="/tpl/reservation.html?id=oslo">
+                <img src="{$product.image}"/>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$product.name}</span></div>
