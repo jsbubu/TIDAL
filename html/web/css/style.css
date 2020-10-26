@@ -352,3 +352,8 @@ li.dropdown {
 #test {
   height: 100px;
 }
+
+.grid-item-destination1 {
+  width : 265px;
+  height: 441px;
+}
