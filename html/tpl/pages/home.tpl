@@ -8,7 +8,6 @@
     </div>
     <div class="texte">
     <div class="texte">
-      <p> Ma variable vaut {$nomDeMaVariableSousSmarty} </p>
     </div> 
         <h2>Filtres :</h2>
         <button onclick="filtre('Tout')">Tout</button>
