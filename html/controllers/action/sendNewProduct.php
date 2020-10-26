@@ -7,9 +7,7 @@ if(isset($_POST['send'])){
     $img_type = $_FILES['image']['type'];
     $file_tmp= $_FILES['image']['tmp_name'];
     $file_ext = strtolower( end(explode('.',$image_name)));
-    echo "file_ext ".$file_ext;
     $data = file_get_contents($file_tmp);   
-    echo "data ".$data;
     $base64 = 'data:' . $img_type . ';base64,' . base64_encode($data);
     echo "Base64 is ".$base64;
     //Récupération de la description de l'image

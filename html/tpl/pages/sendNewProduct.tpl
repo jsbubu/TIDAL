@@ -1,4 +1,3 @@
-<p>{$base64}</p>
-<!--<img src={$base64} />-->
+<img src={$base64} />
 <!--<a href="index.php?page=home">Accueil</a>-->
 
