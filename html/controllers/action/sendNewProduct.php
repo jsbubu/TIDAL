@@ -2,7 +2,7 @@
 
 if(isset($_POST['send'])){
     //Récupération du nom de l'image
-    $image_name = $_FILES['image']['name'];
+    $image_name = $_FILES['image'];
     //Récupération du type de l'image
     $img_type = $_FILES['image']['type'];
     //Récupération de la description de l'image
