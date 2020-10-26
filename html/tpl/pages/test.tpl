@@ -4,6 +4,6 @@
     
     {$product.name}  
     {$product.description}
-    {$product.image'}
+    {$product.image}
 
 {/foreach}
