@@ -4,6 +4,6 @@
     
     {$product.name}  
     {$product.description}
-    {<img src = "data:image/png;base64,' . base64_encode($product.image) . '" width = "50px" height = "50px"/>} <br />
+    <img src = "data:image/png;base64,' . base64_encode($product.image) . '" width = "50px" height = "50px"/> <br />
 
 {/foreach}
