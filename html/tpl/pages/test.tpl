@@ -3,7 +3,9 @@
       
     {$product.name}  
     {$product.description}
+    <?php
     $decod_image = base64_encode ($product.image) ;
+    ?>
     <img src = "'.$decod_image.'" width = "50px" height = "50px" alt="image" /> <br />
 
 {/foreach}
