@@ -3,7 +3,7 @@
       
     {$product.name}  
     {$product.description}
-    <php?
+    <?php
     echo '<img src="'.$product['image'].'"/>';
      ?>
 {/foreach}
