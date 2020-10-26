@@ -5,6 +5,8 @@ if(isset($_POST['send'])){
     $image_name = $_FILES['image']['name'];
     //Récupération de la description de l'image
     $image_desc = htmlspecialchars($_POST['image_desc']);
+    //Récupération du nom du flitre attribué au produit
+    $filtre = htmlspecialchars($_POST['filtre']);
     //Récupération de la description du produit
     $description = htmlspecialchars($_POST['description']);
     //Récupération du Nom
