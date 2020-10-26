@@ -6,10 +6,8 @@ if(isset($_POST['send'])){
     //Récupération du type de l'image
     $img_type = $_FILES['image']['type'];
     $file_tmp= $_FILES['image']['tmp_name'];
-    //$file_ext = strtolower( end(explode('.',$image_name)));
     $data = file_get_contents($file_tmp);   
     $base64 = 'data:' . $img_type . ';base64,' . base64_encode($data);
-    //echo "Base64 is ".$base64;
     //Récupération de la description de l'image
     $image_desc = htmlspecialchars($_POST['image_desc']);
     //Récupération du nom du flitre attribué au produit
@@ -20,7 +18,7 @@ if(isset($_POST['send'])){
     $nom = htmlspecialchars($_POST['nom']);
     //Récupération du Prix
     $price = $_POST['price'];
-    //$prod = new product($nom,$description,$price,$image_name,$image_desc);
+    //appel de la fonction addOneProduct present dans /core
     products::addOneProduct($nom,$description,$filtre,$price,$base64,$img_type,$image_desc);
 }
 ?>

@@ -2,13 +2,12 @@
 {foreach from=$products item=product}
     <div id="grid-item-destination1">
             <div class="grid-content-destination">
-                <a href="/tpl/reservation.html?id=oslo">
-                <img src="{$product.image}"/>
+                <a href="index.php?page=produit">
+                <img src="{$product.image} alt="{product.img_description}/>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$product.name}</span></div>
-                            <div class="item2">{$product.price}</span></div>
-                            <div class="item3"><span class="temp-weather1"></span></div>
+                            <div class="item2">A partir de {$product.price}</span></div>
                         </div> 
                     </div>
                 </a>
