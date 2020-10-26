@@ -27,7 +27,13 @@
             <li><a  href="index.php?page=contact">Contact</a></li>
             <li><a  href="index.php?page=test">Test</a></li>
             <li><a  href="index.php?page=test2">Test 2</a></li>
-            <li><a  href="index.php?page=createProduct">Ajout</a></li>
+                        <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Administration</a>
+                <div class="dropdown-content">
+                    <a  href="index.php?page=createProduct">Ajout</a>
+                    <a  href="index.php?page=createProduct">Modification</a>
+                </div>
+            </li>
             <li style="float: right;">
                 <a href="index.php?page=home">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
