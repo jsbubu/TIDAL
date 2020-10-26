@@ -23,8 +23,7 @@ class products
         global $bdd;
         $bdd->query("INSERT INTO Products (name,description,filtre,price,image,img_description) VALUES ('$nom','$description','$filtre','$price','$image_name','$image_desc')");
         if($bdd){
-            echo "Fichier uploadé avec succès.";
-            echo "$bdd";
+            echo "<script>alert("Ajout du nouveau produit réussi!")</script>";
         }else{
             echo "Échec d'upload du fichier.";
         } 
