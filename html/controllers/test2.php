@@ -7,6 +7,7 @@ $allProducts = products::getAll();
    // $temp = base64_encode($image.image);
    // $allProducts[$image.image] = $temp;
 //}
+header("Content-Type: image/jpg");
 //On transmets les variables à Smarty
 $smarty->assign('products', $allProducts);
 ?>
