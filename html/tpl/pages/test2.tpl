@@ -1,4 +1,5 @@
 {foreach from=$products item=product}   
-       {$product.image}
+    {$product.id}    
+    {$product.image}
     <br/>
 {/foreach}
