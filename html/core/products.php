@@ -19,9 +19,9 @@ class products
     } 
 
     //Ajout d'un produit dans la base de donnée
-    public function addOneProduct($nom,$description,$filtre,$price,$image_name,$image_desc){
+    public function addOneProduct($nom,$description,$filtre,$price,$image_name,$img_type,$image_desc){
         global $bdd;
-        $bdd->query("INSERT INTO Products (name,description,filtre,price,image,img_description) VALUES ('$nom','$description','$filtre','$price','$image_name','$image_desc')");
+        $bdd->query("INSERT INTO Products (name,description,filtre,price,image,img_type,img_description) VALUES ('$nom','$description','$filtre','$price','$image_name','$img_type','$image_desc')");
         if($bdd){
             echo "<script>alert(\"Ajout du nouveau produit réussi!\")</script>";
         }else{
