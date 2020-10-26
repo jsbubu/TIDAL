@@ -22,6 +22,7 @@ if(isset($_POST['send'])){
     $nom = htmlspecialchars($_POST['nom']);
     //Récupération du Prix
     $price = $_POST['price'];
+    $smarty->assign('base64', $base64);
     //$prod = new product($nom,$description,$price,$image_name,$image_desc);
     //products::addOneProduct($nom,$description,$filtre,$price,$image_name,$img_type,$image_desc);
 }
