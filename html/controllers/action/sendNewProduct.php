@@ -14,6 +14,6 @@ if(isset($_POST['send'])){
     //Récupération du Prix
     $price = $_POST['price'];
     //$prod = new product($nom,$description,$price,$image_name,$image_desc);
-    products::addOneProduct($nom,$description,$price,$image_name,$image_desc);
+    products::addOneProduct($nom,$description,$filtre,$price,$image_name,$image_desc);
 }
 ?>
