@@ -4,7 +4,6 @@
     
     {$product.name}  
     {$product.description}
-    header("Content-type: image/jpeg");
-    {$product.image}
+    {$product.image'.base64_encode()'}
 
 {/foreach}
