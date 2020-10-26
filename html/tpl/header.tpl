@@ -26,6 +26,7 @@
             </li>
             <li><a  href="index.php?page=contact">Contact</a></li>
             <li><a  href="index.php?page=test">Test</a></li>
+            <li><a  href="index.php?page=test2">Test</a></li>
             <li><a  href="index.php?page=createProduct">Ajout</a></li>
             <li style="float: right;">
                 <a href="index.php?page=home">
