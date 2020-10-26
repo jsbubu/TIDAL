@@ -21,7 +21,7 @@ class products
     //Ajout d'un produit dans la base de donnée
     public function addOneProduct($nom,$description,$price,$image_name,$image_desc){
         global $bdd;
-        $bdd->query("INSERT INTO Products (name,description,price,image,img_description) VALUES ('$nom','$description','$price','$image_name','$image_desc')");
+        $bdd->query("INSERT INTO Products (name,description,filtre,price,image,img_description) VALUES ('$nom','$description','$filtre','$price','$image_name','$image_desc')");
         if($bdd){
             echo "Fichier uploadé avec succès.";
         }else{
