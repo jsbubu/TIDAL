@@ -1,5 +1,16 @@
-NE PAS REMPLIR !!!!!!!!!!!
-
+<form method="POST" action="" enctype="multipart/form-data">  
+  <div>
+            <SELECT name="filtre" size="1">
+            {foreach from=$products item=product}   
+                <OPTION>{$product.name}
+            {/foreach}
+            </SELECT><br/>
+    </div>
+    </div>
+        <button type="submit" name="send">Envoyer</button> <br/>
+    </div>
+</form>
+<HR>
 <form method="POST" action="" enctype="multipart/form-data">
 
     <div>
@@ -20,7 +31,7 @@ NE PAS REMPLIR !!!!!!!!!!!
                 <OPTION>Commode
                 <OPTION>Bureau
             </SELECT>
-            <br />
+            <br/>
     </div>
     <div>
             <label for="nom">Prix</label>
@@ -39,6 +50,6 @@ NE PAS REMPLIR !!!!!!!!!!!
                 maxlength="80"
                 placeholder="Insérez une description pour votre image"></textarea>
         </div>
-        <button type="submit" name="send">Envoyer</button>
+        <button type="submit" name="send">Envoyer</button><br/>
     </div>
 </form>
