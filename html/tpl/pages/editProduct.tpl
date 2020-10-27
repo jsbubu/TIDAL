@@ -48,6 +48,7 @@
         <p> Ajoutez votre image : <input type="file" name="image"></p>
     </div>
     <div>
+      <p>Description de l'image du produit :</p>
        <textarea
           id="textarea"
           name="image_desc"
