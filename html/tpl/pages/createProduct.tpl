@@ -16,6 +16,7 @@
                 <OPTION>Table
                 <OPTION>Armoire
                 <OPTION>Commode
+                <OPTION>Bureau
             </SELECT>
             <br />
     </div>
