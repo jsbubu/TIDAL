@@ -34,6 +34,7 @@
                 name="image_desc"
                 cols="40"
                 rows="4"
+                maxlength="80"
                 placeholder="Insérez une description pour votre image"></textarea>
         </div>
         <button type="submit" name="send">Envoyer</button>
