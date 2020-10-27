@@ -19,8 +19,8 @@ class products
                 price = '$price',
                 image = '$base64',
                 img_type = '$img_type',
-                img_description = '$image_desc',
-            WHERE id = $id");
+                img_description = '$image_desc'
+            WHERE id = '$id'");
         }
         catch (Exception $e) {
             echo 'Erreur : ' . $e->getMessage() . '<br />';
