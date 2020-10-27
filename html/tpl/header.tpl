@@ -31,7 +31,7 @@
                 <a href="javascript:void(0)" class="dropbtn">Administration</a>
                 <div class="dropdown-content">
                     <a  href="index.php?page=createProduct">Ajout</a>
-                    <a  href="index.php?page=createProduct">Modification</a>
+                    <a  href="index.php?page=editProduct">Modification</a>
                 </div>
             </li>
             <li style="float: right;">
