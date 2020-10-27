@@ -6,7 +6,7 @@
             {foreach from=$products item=product}   
                 <OPTION>{$product.name}
             {/foreach}
-            </SELECT>&²<button type="submit" name="find">Rechercher</button><br/>
+            </SELECT>  <button type="submit" name="find">Rechercher</button><br/>
     </div>
 <br><br>
 </form>
