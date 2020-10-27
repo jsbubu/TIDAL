@@ -15,11 +15,11 @@ class products
 
     //Récuperer un produit par le nom
     public function getneByName($name_prod){
-        echo $name_prod;
        try {
         global $bdd;
-        $res = $bdd->query('SELECT * FROM Products WHERE name = "$name_prod"')->fetchAll(PDO::FETCH_ASSOC);
-        return ($res);
+        $result = $bdd->query('SELECT * FROM Products WHERE name = "$name_prod"')->fetchAll(PDO::FETCH_ASSOC);
+           echo $result;
+        return ($result);
             } catch (Exception $e) {
         echo 'Erreur : ' . $e->getMessage() . '<br />';
         echo 'N° : ' . $e->getCode();
