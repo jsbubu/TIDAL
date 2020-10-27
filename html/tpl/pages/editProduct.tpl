@@ -11,7 +11,7 @@
 <br><br>
 </form>
 <HR>
-<form method="POST" action="EditProductBdd" enctype="multipart/form-data">
+<form method="POST" action="index.php?action=EditProductBdd" enctype="multipart/form-data">
 {foreach from=$this item=thisproduct}
 <div>
         <label for="id">Id du produit :</label>
