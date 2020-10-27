@@ -35,13 +35,12 @@
             <br/>
     </div>
     <div>
-            <label for="nom">Prix</label>
-            <input type="number" id="demande" value "{$thisproduct.price}" name="price"/>
+            <label for="nom">Prix : <input type="number" id="demande" value "{$thisproduct.price}" name="price"/>€</label>
             <br />
     </div>
     <div>
-        <p> Ajoutez votre image</p>
-        <input type="file" name="image">
+        <p> Image actuelle : <img src="{$thisproduct.image}" /></p>
+        <p> Ajoutez votre image : <input type="file" name="image"></p>
         <div>
             <textarea
                 id="textarea"
