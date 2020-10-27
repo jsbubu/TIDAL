@@ -40,17 +40,16 @@
     <div>
         <p> Image actuelle : <img src="{$thisproduct.image}" /></p>
         <p> Ajoutez votre image : <input type="file" name="image"></p>
-        <div>
-            <textarea
-                id="textarea"
-                name="image_desc"
-                cols="40"
-                rows="4"
-                maxlength="80"
-                value="{$thisproduct.img_description}"
-                placeholder="Insérez une description pour votre image"></textarea>
-        </div>
-        <button type="submit" name="send">Envoyer</button><br/>
     </div>
+    <div>
+       <textarea
+          id="textarea"
+          name="image_desc"
+          cols="40"
+          rows="4"
+          maxlength="80"
+          placeholder="Insérez une description pour votre image">{$thisproduct.img_description}</textarea>
+    </div>
+        <button type="submit" name="send">Envoyer</button><br/>
     {/foreach}
 </form>
