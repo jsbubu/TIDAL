@@ -1,4 +1,5 @@
 <form method="POST" page="editProduct" enctype="multipart/form-data">  
+  
   <div>
             <SELECT name="ProductName" size="1">
             <OPTION selected> Choisir un prduit
@@ -12,7 +13,12 @@
 <HR>
 <form method="POST" action="" enctype="multipart/form-data">
 {foreach from=$this item=thisproduct}
-    <div>
+<div>
+        <label for="id">Id du produit :</label>
+            <input type="text" id="demande" name="id" readonly value="{$thisproduct.id}" />
+            <br />
+</div>
+<div>
         <label for="nom">Nom du produit :</label>
             <input type="text" id="demande" name="nom" value="{$thisproduct.name}" size="50" maxlength="50"/>
             <br />
