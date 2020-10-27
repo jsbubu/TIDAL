@@ -1,4 +1,4 @@
-<form method="POST" action="editProduct" enctype="multipart/form-data">  
+<form method="POST" page="editProduct" enctype="multipart/form-data">  
   <div>
             <SELECT name="ProductName" size="1">
             {foreach from=$products item=product}   
