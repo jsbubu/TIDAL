@@ -16,12 +16,12 @@
 
     <div>
         <label for="nom">Nom</label>
-            <input type="text" id="demande" name="nom" value="{$this.name}" size="50" maxlength="50"/>
+            <input type="text" id="demande" name="nom" value="" size="50" maxlength="50"/>
             <br />
     </div>
     <div>
             <label for="nom">Description</label>
-            <input type="text" id="demande" name="description" value="{this.descpription}" size="500" maxlength="500"/>
+            <input type="text" id="demande" name="description" value="" size="500" maxlength="500"/>
             <br />
     </div>
     <div>
