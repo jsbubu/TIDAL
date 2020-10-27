@@ -1,4 +1,3 @@
-{$this.name}
 <form method="POST" page="editProduct" enctype="multipart/form-data">  
   <div>
             <SELECT name="ProductName" size="1">
@@ -17,7 +16,7 @@
 
     <div>
         <label for="nom">Nom</label>
-            <input type="text" id="demande" name="nom" value="" size="50" maxlength="50"/>
+            <input type="text" id="demande" name="nom" value="{$product.name}" size="50" maxlength="50"/>
             <br />
     </div>
     <div>
