@@ -4,7 +4,7 @@ if(isset($_POST['send'])){
     //Récupération du nom de l'image
     //$image_name = $_FILES['image']['name'];
     //Récupération du type de l'image
-    if (!empty($_POST['ProductName'])){
+    if (!empty($_FILES['image']['tmp_name']){
         $img_type = $_FILES['image']['type'];
         $file_tmp= $_FILES['image']['tmp_name'];
         $data = file_get_contents($file_tmp);   
