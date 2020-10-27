@@ -13,16 +13,17 @@
 <form method="POST" action="" enctype="multipart/form-data">
 {foreach from=$this item=thisproduct}
     <div>
-        <label for="nom">Nom</label>
+        <label for="nom">Nom du produit :</label>
             <input type="text" id="demande" name="nom" value="{$thisproduct.name}" size="50" maxlength="50"/>
             <br />
     </div>
     <div>
-            <label for="nom">Description</label>
+            <label for="nom">Description du produit :</label>
             <input type="text" id="demande" name="description" value="{$thisproduct.description}" size="500" maxlength="500"/>
             <br />
     </div>
     <div>
+             <label for="filtre">Type de produit : </label>
             <SELECT name="filtre" size="1">
                 <OPTION selected>{$thisproduct.filtre}
                 <OPTION>Table
@@ -33,7 +34,7 @@
             <br/>
     </div>
     <div>
-            <input for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</input>
+            <label for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</label>
             <br />
     </div>
     <div>
