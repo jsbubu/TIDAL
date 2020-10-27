@@ -36,7 +36,7 @@
     </div>
     <div>
             <label for="nom">Prix</label>
-            <input type="number" id="demande" name="price"/>
+            <input type="number" id="demande" value "{$thisproduct.price}" name="price"/>
             <br />
     </div>
     <div>
@@ -49,7 +49,7 @@
                 cols="40"
                 rows="4"
                 maxlength="80"
-                placeholder="Insérez une description pour votre image"></textarea>
+                value="{$thisproduct.img_description}" ></textarea>
         </div>
         <button type="submit" name="send">Envoyer</button><br/>
     </div>
