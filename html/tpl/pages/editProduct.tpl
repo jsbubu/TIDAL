@@ -24,7 +24,7 @@
     </div>
     <div>
             <SELECT name="filtre" size="1">
-                <OPTION selected>Aucun
+                <OPTION selected>{$thisproduct.filtre}
                 <OPTION>Table
                 <OPTION>Armoire
                 <OPTION>Commode
@@ -33,7 +33,7 @@
             <br/>
     </div>
     <div>
-            <label for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</label>
+            <input for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</input>
             <br />
     </div>
     <div>
@@ -45,7 +45,9 @@
                 name="image_desc"
                 cols="40"
                 rows="4"
-                maxlength="80">{$thisproduct.img_description}</textarea>
+                maxlength="80"
+                value="{$thisproduct.img_description}"
+                placeholder="Insérez une description pour votre image"></textarea>
         </div>
         <button type="submit" name="send">Envoyer</button><br/>
     </div>
