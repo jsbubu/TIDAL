@@ -7,7 +7,7 @@
             </SELECT><br/>
     </div>
     </div>
-        <button type="submit" name="send">Rechercher</button> <br/>
+        <button type="submit" name="find">Rechercher</button> <br/>
     </div>
 </form>
 <HR>
