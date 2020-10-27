@@ -1,6 +1,6 @@
 <form method="POST" action="" enctype="multipart/form-data">  
   <div>
-            <SELECT name="filtre" size="1">
+            <SELECT name="ProductName" size="1">
             {foreach from=$products item=product}   
                 <OPTION>{$product.name}
             {/foreach}
