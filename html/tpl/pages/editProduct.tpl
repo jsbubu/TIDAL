@@ -13,10 +13,10 @@
 </form>
 <HR>
 <form method="POST" action="" enctype="multipart/form-data">
-
+{foreach from=$this item=this}
     <div>
         <label for="nom">Nom</label>
-            <input type="text" id="demande" name="nom" value="$this.name" size="50" maxlength="50"/>
+            <input type="text" id="demande" name="nom" value="{$this.name}" size="50" maxlength="50"/>
             <br />
     </div>
     <div>
@@ -53,4 +53,5 @@
         </div>
         <button type="submit" name="send">Envoyer</button><br/>
     </div>
+    {/foreach}
 </form>
