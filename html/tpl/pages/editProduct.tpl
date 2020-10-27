@@ -35,7 +35,7 @@
             <br/>
     </div>
     <div>
-            <label for="nom">Prix : <input type="number" id="demande" value "{$thisproduct.price}" name="price"/>€</label>
+            <label for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</label>
             <br />
     </div>
     <div>
@@ -47,8 +47,7 @@
                 name="image_desc"
                 cols="40"
                 rows="4"
-                maxlength="80"
-                value="{$thisproduct.img_description}" ></textarea>
+                maxlength="80">{$thisproduct.img_description}</textarea>
         </div>
         <button type="submit" name="send">Envoyer</button><br/>
     </div>
