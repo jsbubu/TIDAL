@@ -17,7 +17,7 @@ class products
     public function getneByName($name_prod){
        try {
         global $bdd;
-        $result = $bdd->query('SELECT * FROM Products WHERE name = "$name_prod"')->fetchAll(PDO::FETCH_ASSOC);
+        $result = $bdd->query("SELECT * FROM Products WHERE name='$name_prod'")->fetchAll(PDO::FETCH_ASSOC);
            print_r ($result);
         return ($result);
             } catch (Exception $e) {
