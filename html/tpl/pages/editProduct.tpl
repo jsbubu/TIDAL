@@ -1,3 +1,5 @@
+{this.name}
+{this.descpription}
 <form method="POST" page="editProduct" enctype="multipart/form-data">  
   <div>
             <SELECT name="ProductName" size="1">
