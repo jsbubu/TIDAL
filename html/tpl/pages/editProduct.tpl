@@ -1,17 +1,17 @@
 <form method="POST" page="editProduct" enctype="multipart/form-data">  
-  
+  <br><br>
   <div>
             <SELECT name="ProductName" size="1">
             <OPTION selected> Choisir un prduit
             {foreach from=$products item=product}   
                 <OPTION>{$product.name}
             {/foreach}
-            </SELECT><button type="submit" name="find">Rechercher</button><br/>
+            </SELECT>&²<button type="submit" name="find">Rechercher</button><br/>
     </div>
-<br/>
+<br><br>
 </form>
 <HR>
-<form method="POST" action="" enctype="multipart/form-data">
+<form method="POST" action="EditProductBdd" enctype="multipart/form-data">
 {foreach from=$this item=thisproduct}
 <div>
         <label for="id">Id du produit :</label>
@@ -44,6 +44,8 @@
             <br />
     </div>
     <div>
+        <input type="text" name="old-image" value="{$thisproduct.image}" hidden/>
+        <input type="text" name="old-type" value="{$thisproduct.img_type}" hidden/>
         <p> Image actuelle : <img src="{$thisproduct.image}" /></p>
         <p> Modifier l'image du produit : <input type="file" name="image"></p>
     </div>
