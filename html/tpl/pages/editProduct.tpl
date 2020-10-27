@@ -21,7 +21,7 @@
     </div>
     <div>
             <label for="nom">Description</label>
-            <input type="text" id="demande" name="description" value="" size="500" maxlength="500"/>
+            <input type="text" id="demande" name="description" value="{$this.description}" size="500" maxlength="500"/>
             <br />
     </div>
     <div>
