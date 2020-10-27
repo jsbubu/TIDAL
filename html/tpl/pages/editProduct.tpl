@@ -10,7 +10,9 @@
         <button type="submit" name="find">Rechercher</button> <br/>
     </div>
 </form>
+{$this.name}
 <HR>
+{$this.name}
 <form method="POST" action="" enctype="multipart/form-data">
 
     <div>
