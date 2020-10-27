@@ -4,7 +4,7 @@ class products
     //Récuperer tout les produits
     public function getAll(){
         global $bdd;
-        $res = $bdd->query('SELECT * FROM Products')->fetchAll(PDO::FETCH_ASSOC);
+        $res = $bdd->query('SELECT * FROM Products ORDER BY id DESC')->fetchAll(PDO::FETCH_ASSOC);
         return ($res);
     } 
 
