@@ -1,7 +1,7 @@
-{$this.name}
 <form method="POST" page="editProduct" enctype="multipart/form-data">  
   <div>
             <SELECT name="ProductName" size="1">
+            <OPTION selected> Choisir un prduit
             {foreach from=$products item=product}   
                 <OPTION>{$product.name}
             {/foreach}
@@ -11,9 +11,7 @@
         <button type="submit" name="find">Rechercher</button> <br/>
     </div>
 </form>
-{$this.name}
 <HR>
-{$this.name}
 <form method="POST" action="" enctype="multipart/form-data">
 
     <div>
