@@ -20,7 +20,7 @@ class products
                 image = '$base64',
                 img_type = '$img_type',
                 img_description = '$image_desc',
-            WHERE id = '$id'");
+            WHERE id = $id");
         }
         catch (Exception $e) {
             echo 'Erreur : ' . $e->getMessage() . '<br />';

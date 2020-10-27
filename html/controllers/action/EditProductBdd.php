@@ -26,14 +26,6 @@ if(isset($_POST['send'])){
     //Récupération de l'Id
     $id = $_POST['id'];
     //appel de la fonction addOneProduct present dans /core
-    echo $id;
-    echo $nom; 
-    echo $description; 
-    echo $filtre; 
-    echo $price;
-    echo $img_type; 
-    echo $image_desc; 
-    echo $base64;
     products::editOneById($id,$nom,$description,$filtre,$price,$base64,$img_type,$image_desc);
 }     
 ?>
