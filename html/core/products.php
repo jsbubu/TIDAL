@@ -15,7 +15,9 @@ class products
 
     //Récuperer un produit par le nom
     public function getneByName($name_prod){
-        //Récuperer un produit par le nom
+        global $bdd;
+        $res = $bdd->query('SELECT * FROM Products WHERE name = "$name_prod"')->fetchAll(PDO::FETCH_ASSOC);
+        return ($res);
     } 
 
     //Ajout d'un produit dans la base de donnée
