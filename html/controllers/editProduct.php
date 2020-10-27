@@ -5,7 +5,7 @@ $allProducts = products::getAll();
 if(!empty($_POST['ProductName'])){
   $ProductName = htmlspecialchars($_POST['ProductName']);
   $thisProduct = products::getneByName($ProductName);
-  echo $thisProduct[description];
+  print_r ($thisProduct);
   $smarty->assign('this', $thisProduct);
 }
 //On transmets les variables à Smarty
