@@ -5,11 +5,9 @@
             {foreach from=$products item=product}   
                 <OPTION>{$product.name}
             {/foreach}
-            </SELECT><br/>
+            </SELECT><button type="submit" name="find">Rechercher</button><br/>
     </div>
-    </div>
-        <button type="submit" name="find">Rechercher</button> <br/>
-    </div>
+<br/>
 </form>
 <HR>
 <form method="POST" action="" enctype="multipart/form-data">
