@@ -67,8 +67,6 @@ figure {
 }
 .grid-item-reservation img {
     border: 2px solid rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: auto;
 }
 
 .grid-container-destination {
