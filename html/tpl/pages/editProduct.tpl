@@ -36,6 +36,7 @@
                 <OPTION>Armoire
                 <OPTION>Commode
                 <OPTION>Bureau
+                <OPTION>Informatique
             </SELECT>
             <br/>
     </div>
