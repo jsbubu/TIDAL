@@ -33,6 +33,11 @@ body
 
 /*Image*/
 
+#image1{
+    width: 100%;
+    height: auto;
+}
+
 figure {
 	margin: auto;
 	padding: auto;
