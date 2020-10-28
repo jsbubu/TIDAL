@@ -7,7 +7,6 @@
         <p>Envie de changer votre intérieur ? Envie de technologie ? Tout en respectant l'environnement ? Laissez-vous séduire par notre gamme de meubles connectés. Trägront c'est l'esprit nordique qui saura raviver votre maison.</p>
 </div>
 
-<div class="texte">
 <div class="grid-container-destination">
 {foreach from=$products item=product}
     <div id="grid-item-destination1">
@@ -23,7 +22,6 @@
             </div>
     </div>
 {/foreach}
-</div>
 </div>
 <div>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
