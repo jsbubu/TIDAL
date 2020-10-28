@@ -20,17 +20,17 @@
 </div>
 <div>
         <label for="nom">Nom du produit :</label>
-            <input type="text" id="demande" name="nom" value="{$thisproduct.name}" size="50" maxlength="50"/>
+            <input type="text" id="demande" name="nom" required value="{$thisproduct.name}" size="50" maxlength="50"/>
             <br />
     </div>
     <div>
             <label for="nom">Description du produit :</label>
-            <input type="text" id="demande" name="description" value="{$thisproduct.description}" size="500" maxlength="500"/>
+            <input type="text" id="demande" name="description" required value="{$thisproduct.description}" size="500" maxlength="500"/>
             <br />
     </div>
     <div>
              <label for="filtre">Type de produit : </label>
-            <SELECT name="filtre" size="1">
+            <SELECT name="filtre" required size="1">
                 <OPTION selected>{$thisproduct.filtre}
                 <OPTION>Table
                 <OPTION>Armoire
@@ -40,7 +40,7 @@
             <br/>
     </div>
     <div>
-            <label for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" name="price"/>€</label>
+            <label for="nom">Prix : <input type="number" id="demande" value="{$thisproduct.price}" required name="price"/>€</label>
             <br />
     </div>
     <div>
@@ -57,6 +57,7 @@
           cols="40"
           rows="4"
           maxlength="80"
+          required
           placeholder="Insérez une description pour votre image">{$thisproduct.img_description}</textarea>
     </div>
         <button type="submit" name="send">Envoyer</button><br/>
