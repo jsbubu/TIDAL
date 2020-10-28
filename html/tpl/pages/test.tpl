@@ -11,12 +11,11 @@
 {foreach from=$products item=product}
     <div id="grid-item-destination1">
             <div class="grid-content-destination">
-                <a href="index.php?page=produit">
-                <img src="{$product.image}" alt="{$product.img_description}" />
+                <a href="index.php?page=produit"><figure><img src="{$product.image}" alt="{$product.img_description} style="width:100%;" /></figure>
                     <div class="grid-destination">
                         <div class="grid-destination">
-                            <div class="item1">{$product.name}</span></div>
-                            <div class="item2">Au prix de {$product.price}€</span></div>
+                            <div class="item1">{$product.name}</div>
+                            <div class="item2">Au prix de {$product.price} €</div>
                         </div> 
                     </div>
                 </a>
