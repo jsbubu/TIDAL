@@ -10,6 +10,11 @@ body
     margin : 0;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 /*texte*/
 .texte {
     text-align: center;
