@@ -22,7 +22,6 @@ $(function(){
         var destimage = destination.villes[MyObj].image
         var x = document.getElementById("image" + i);
         x.setAttribute("src", destimage);
-        temperature(destination.villes[MyObj].name, i);
         i++;
     }
 
