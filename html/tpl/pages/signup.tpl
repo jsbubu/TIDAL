@@ -77,8 +77,6 @@
                         <div>
                             <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A">
                             </div>
-                        
-                        <input  type="reset" value="Tout effacer" class="btn-rouge">
                     </div>
                 </div>
                
