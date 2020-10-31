@@ -1,21 +1,3 @@
-function temperature(ville, i){
-
-    var apiKey = '4f7e6354af1ebfc0d5716ad9ef4cffd7';
-    var baseUrl = 'http://api.openweathermap.org/data/2.5/weather?APPID=' + apiKey + '&q=' + ville;
-    var params = {
-        url: baseUrl,
-        method: 'GET'
-    };
-
-        jQuery.ajax(params).done(function(response){
-            var tempe = response.main.temp - 273.15;
-            var res = tempe.toFixed(0);
-            $('.temp-weather' + i).text(res + "°c");
-        })
-        .fail(function(){
-            console.error('Erreur');
-        });
-};
 
 $(function(){
 
