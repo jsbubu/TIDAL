@@ -91,7 +91,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a id="button"></a>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="web/js/main.js"></script>
     <!-- Bouton -->
     <script src="web/js/bouton.js"></script>
