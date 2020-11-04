@@ -41,12 +41,12 @@
                     <a  href="index.php?page=signup">Inscrivez-Vous</a>
                 </div>
             </li>
-            <li style="float: right;"> <a  href="index.php?page=basket">Panier</a></li>
             <li style="float: right;">
                 <a href="index.php?page=home">
                     <img src="https://img.icons8.com/cotton/30/000000/around-the-globe--v4.png">
                 </a>
             </li>
+            <li style="float: right;"> <a  href="index.php?page=basket">Panier</a></li>
         </ul>
     </nav>
 </header>

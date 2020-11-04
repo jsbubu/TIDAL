@@ -2,9 +2,9 @@
 <br><br>
     <div>
         <SELECT name="Name" size="1">
-            <OPTION selected> Choisir Votre nom
+            <OPTION selected> Choisissez votre nom
             {foreach from=$customers item=users}   
-                <OPTION>{$users.familyname}
+                <OPTION value="$users.id">{$users.familyname}</OPTION>
             {/foreach}
         </SELECT>  <button type="submit" name="find">Rechercher votre panier</button><br/>
     </div>
