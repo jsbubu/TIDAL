@@ -1,5 +1,5 @@
 <? php
-  class products
+  class users
 {
   //Récuperer tout les clients
   public function getAll(){
