@@ -19,7 +19,7 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation" action="../../controllers/action/connexion.php" method="POST" >
+        <form name="reservation" action="../../controllers/action/connexion.php" method="POST">
             <div class="row">
                 <div class="col-75">
                     <div class="container">
