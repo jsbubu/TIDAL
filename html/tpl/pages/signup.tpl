@@ -35,26 +35,11 @@
                                         </div>
                                     </div>
                                     <div>
-                                    <label> Email</label>
-                                    <input type="email" id="email" name="email" 
-                                        placeholder="gregory.morel@cpe.fr">
-                                    </div>
-                                    <label> Téléphone</label>
-                                    <input type="tel" id="phone" name="phone" placeholder="0800801064">
-                                    <div>
                                     <label > Adresse</label>
                                     <input type="text" id="adr" name="adresse" 
                                         placeholder="10 rue Jean-Monnet">
                                     </div>
                                     <div class="row">
-                                        <div class="col-25">
-                                            <label>Code Postal</label>
-                                            <input type="text" id="zip" name="zip"  placeholder="69003">
-                                        </div>
-                                        <div class="col-25">
-                                            <label> Ville</label>
-                                            <input type="text" id="city" name="city"  placeholder="Lyon">
-                                        </div>
                                         <div class="col-75">
                                             <label>Login</label>
                                             <input type="text" id="login" name="login" >
