@@ -10,14 +10,14 @@ if (!$conn) {
 echo "Connected successfully";
 
 
-$first = $_POST['prenom'];
-$last = $_POST['nom'];
+$firstname = $_POST['prenom'];
+$familyname = $_POST['nom'];
 $adress = $_POST['adresse'];
-$login = $_POST['login'];
+$username = $_POST['login'];
 $password = $_POST['password'];
 
 $sql = "INSERT INTO Customers (firstname, familyname, address, username, password) 
-VALUES ( '$first', '$last','$adress', '$login', '$password');";
+VALUES ( '$firstname', '$familyname','$adress', '$username', '$password');";
 
 mysqli_query($conn, $sql);
 
