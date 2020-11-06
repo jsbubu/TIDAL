@@ -11,10 +11,18 @@
 </head>
 
 <body>
-
+<div data="/html/header.html"></div>
 <h1>Välkommen !</h1> 
 <p>Votre inscription s'est déroulé avec succés. Si vous souahitez vous connecter cliquer ici</p>
 <p>Sinon cliquez ici pour retourner à l'accueil du site</p> 
+
+<div data="/html/footer.html"></div>
+     <!-- Header Footer-->
+    <script src="/js/includehtml.js"></script>
+    <script>includeHTML()</script>
+    <!-- Bouton -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/js/bouton.js"></script>
 
 </body>
 
