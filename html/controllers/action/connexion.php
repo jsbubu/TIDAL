@@ -12,16 +12,12 @@ echo "Connected successfully";
 
 $first = $_POST['prenom'];
 $last = $_POST['nom'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
 $adress = $_POST['adresse'];
-$postcode = $_POST['zip'];
-$ville = $_POST['city'];
 $login = $_POST['login'];
 $password = $_POST['password'];
 
-$sql = "INSERT INTO users (first, last, email, phone, adress, zip, city, login, password) 
-VALUES ( '$first', '$last', '$email', '$phone', '$adress', '$postcode', '$ville', '$login', '$password');";
+$sql = "INSERT INTO Customers (firstname, familyname, address, login, password) 
+VALUES ( '$first', '$last','$adress', '$login', '$password');";
 
 mysqli_query($conn, $sql);
 
