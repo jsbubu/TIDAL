@@ -16,7 +16,7 @@ $adress = $_POST['adresse'];
 $login = $_POST['login'];
 $password = $_POST['password'];
 
-$sql = "INSERT INTO Customers (firstname, familyname, address, login, password) 
+$sql = "INSERT INTO Customers (firstname, familyname, address, username, password) 
 VALUES ( '$first', '$last','$adress', '$login', '$password');";
 
 mysqli_query($conn, $sql);
