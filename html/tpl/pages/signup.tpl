@@ -35,13 +35,6 @@
                                         </div>
                                     </div>
                                     <div>
-                                    <label> Email</label>
-                                    <input type="email" id="email" name="email" 
-                                        placeholder="gregory.morel@cpe.fr">
-                                    </div>
-                                    <label> Téléphone</label>
-                                    <input type="tel" id="phone" name="phone" placeholder="0800801064">
-                                    <div>
                                     <label > Adresse</label>
                                     <input type="text" id="adr" name="adresse" 
                                         placeholder="10 rue Jean-Monnet">
