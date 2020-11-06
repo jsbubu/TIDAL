@@ -52,11 +52,12 @@
                                                   
                                         </div>
                                         </div>
-                                        <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required> 
+                                         
                                         
                                     </div>
                                     <input type="submit" value="Appuyer pour valider" class="btn">
                                 </div>
+                                <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
                                 </div>
                             </div>
                             
