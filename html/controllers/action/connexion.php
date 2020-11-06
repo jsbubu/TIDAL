@@ -7,7 +7,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
-header('Location: welcome.tpl'); 
+header('Location: ../../tpl/pages/welcome.tpl'); 
 
 $firstname = $_POST['prenom'];
 $familyname = $_POST['nom'];
