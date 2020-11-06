@@ -19,11 +19,11 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation" action="../../controllers/action/connexion.php" method="POST">
+        <form name="reservation" action="../../controllers/action/connexion.php" method="POST" >
             <div class="row">
                 <div class="col-75">
                     <div class="container">
-                        
+                        <form >
                             <div class="row">
                                 <div class="col-50">
                                     <div class="row">
@@ -35,11 +35,26 @@
                                         </div>
                                     </div>
                                     <div>
+                                    <label> Email</label>
+                                    <input type="email" id="email" name="email" 
+                                        placeholder="gregory.morel@cpe.fr">
+                                    </div>
+                                    <label> Téléphone</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="0800801064">
+                                    <div>
                                     <label > Adresse</label>
                                     <input type="text" id="adr" name="adresse" 
                                         placeholder="10 rue Jean-Monnet">
                                     </div>
                                     <div class="row">
+                                        <div class="col-25">
+                                            <label>Code Postal</label>
+                                            <input type="text" id="zip" name="zip"  placeholder="69003">
+                                        </div>
+                                        <div class="col-25">
+                                            <label> Ville</label>
+                                            <input type="text" id="city" name="city"  placeholder="Lyon">
+                                        </div>
                                         <div class="col-75">
                                             <label>Login</label>
                                             <input type="text" id="login" name="login" >
@@ -51,7 +66,7 @@
                                         </div>
                                                   
                                         </div>
-                                        </div>
+                                        </div><div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required> 
                                         <input type="submit" value="Appuyer pour valider" class="btn">
                                     </div>
                                 </div>
@@ -60,8 +75,9 @@
                             
                         </form>
                         <div>
-                            <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A">
-                            </div>
+                            
+                           
+                        
                     </div>
                 </div>
                
