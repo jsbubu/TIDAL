@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-75">
                     <div class="container">
-                        <form >
+                        
                             <div class="row">
                                 <div class="col-50">
                                     <div class="row">
