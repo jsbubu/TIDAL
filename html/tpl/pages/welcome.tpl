@@ -16,7 +16,7 @@
 <p>Votre inscription s'est déroulé avec succés. Si vous souahitez vous connecter cliquer ici</p>
 <p>Sinon cliquez ici pour retourner à l'accueil du site</p> 
 
-<div data="/html/footer.html"></div>
+<div data="../../tpl/footer.html"></div>
      <!-- Header Footer-->
     <script src="/js/includehtml.js"></script>
     <script>includeHTML()</script>
