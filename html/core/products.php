@@ -47,7 +47,6 @@ class products
         try {
             global $bdd;
             $resultId = $bdd->query("SELECT * FROM Products WHERE id IN ($Id_prod)")->fetchAll(PDO::FETCH_ASSOC);
-            print_r ($resultId);
             return ($resultId);
         } 
         catch (Exception $e) {

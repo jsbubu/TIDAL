@@ -11,7 +11,10 @@ if(isset($_POST['FindBasket'])){
     }
   $Idproduct = implode (',', $TabIdProd);
   $Userproduct = products::getneById($Idproduct);
-  print_r ($Userproduct);
+  $Key=array_search($produits.id,$basket)
+    if($Key){
+        $quantity=$basket[$Key][quantity];
+  }
   $smarty->assign('products', $Userproduct);
   $smarty->assign('basket', $BasketUser);
 }

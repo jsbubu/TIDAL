@@ -22,12 +22,6 @@ Voici votre Panier : <br>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$produits.name}</div>
-                            {
-                                $Key=array_search($produits.id,$basket)
-                                if($Key){
-                                    $quantity=$basket[$Key][quantity]
-                                }
-                            }
                             <div class="item2">Quantité : {$quantity}</div>
                         </div> 
                     </div>
