@@ -6,12 +6,12 @@ if(isset($_POST['FindBasket'])){
   $UserName = htmlspecialchars($_POST['user']);
   $BasketUser = baskets::showBasket($UserName);
   $TabIdProd = array();
-    echo "pipi";
   for($i = 0, $size = count($BasketUser); $i < $size; ++$i) {
     array_push($TabIdProd,$BasketUser[$i]['product']);
     }
   $Idproduct = implode (',', $TabIdProd);
   $Userproduct = products::getneById($Idproduct);
+  echo $Userproduct;
   $smarty->assign('products', $Userproduct);
   $smarty->assign('basket', $BasketUser);
 }
