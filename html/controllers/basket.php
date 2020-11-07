@@ -10,9 +10,9 @@ if(isset($_POST['FindBasket'])){
   for($i = 0, $size = count($BasketUser); $i < $size; ++$i) {
     array_push($TabIdProd,$BasketUser[$i]['product']);
     }
-  echo $TabIdProd;
-  $valeurs = implode (',', $TabIdProd);
-  echo $valeurs;
+  $Idproduct = implode (',', $TabIdProd);
+  $Userproduct = products::getneById($Idproduct);
+
   //$smarty->assign('this', $thisProduct);
 }
 //On transmets les variables à Smarty
