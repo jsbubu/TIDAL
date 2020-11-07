@@ -28,7 +28,7 @@ Voici votre Panier : <br>
                                     $quantity=$basket[$Key][quantity]
                                 }
                             }
-                            <div class="item2">Quantité : 4</div>
+                            <div class="item2">Quantité : {$quantity}</div>
                         </div> 
                     </div>
                 </a>
