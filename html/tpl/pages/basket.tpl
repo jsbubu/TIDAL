@@ -2,7 +2,7 @@
 <br><br>
     <div>
         <SELECT name="user" size="1">
-            <OPTION selected> Choisissez votre nom
+            <OPTION selected> Choisissez votre nom :</OPTION>
             {foreach from=$customers item=users}   
                 <OPTION value="{$users.id}">{$users.familyname} {$users.firstname}</OPTION>
             {/foreach}
