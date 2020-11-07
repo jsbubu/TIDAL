@@ -16,7 +16,8 @@
     public function showBasket($CustomerId){
       try {
           global $bdd;
-          $bdd->query("SELECT * FROM Basket WHERE customer='$CustomerId'");
+          $basket = $bdd->query("SELECT * FROM Basket WHERE customer='$CustomerId'");
+          return ($basket);
       } 
       catch (Exception $e) {
           echo 'Erreur : ' . $e->getMessage() . '<br/>';
