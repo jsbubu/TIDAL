@@ -14,21 +14,15 @@
 
 <br>
 Voici votre Panier : <br>
-
 {foreach from=$products item=produits}
+
 <div id="grid-item-destination1">
             <div class="grid-content-destination">
                 <a href="index.php?page=produit"><figure><img  src="{$produits.image}" alt="{$produits.img_description} style="width:100%;" /></figure>
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$produits.name}</div>
-                            {
-                                $Key=array_search($produits.id,$basket)
-                                if($Key){
-                                    $quantity=$basket[$Key][quantity]
-                                }
-                            }
-                            <div class="item2">Quantité : {$quantity}</div>
+                            <div class="item2">Quantité : 4</div>
                         </div> 
                     </div>
                 </a>
