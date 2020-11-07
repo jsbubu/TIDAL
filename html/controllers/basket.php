@@ -4,7 +4,7 @@ $allUsers = users::getAll();
 //On appelle la fonction ()
 if(isset($_POST['FindBasket'])){
   $UserName = htmlspecialchars($_POST['user']);
-  $thisProduct = baskets::getneByName($UserName);
+  $thisProduct = baskets::showBasket($UserName);
   echo $thisProduct;
   //$smarty->assign('this', $thisProduct);
 }
