@@ -15,7 +15,7 @@
                     <div class="grid-destination">
                         <div class="grid-destination">
                             <div class="item1">{$product.name}</div>
-                            <div class="item2">Au prix de {$product.price} €</div>
+                            <div class="item2">Au prix de {$basket.quantity} €</div>
                         </div> 
                     </div>
                 </a>

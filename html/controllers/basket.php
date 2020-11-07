@@ -12,8 +12,8 @@ if(isset($_POST['FindBasket'])){
     }
   $Idproduct = implode (',', $TabIdProd);
   $Userproduct = products::getneById($Idproduct);
-
-  //$smarty->assign('this', $thisProduct);
+  $smarty->assign('products', $Userproduct);
+  $smarty->assign('basket', $BasketUser);
 }
 //On transmets les variables à Smarty
 $smarty->assign('customers', $allUsers);
