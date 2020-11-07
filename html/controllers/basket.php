@@ -6,11 +6,12 @@ if(isset($_POST['FindBasket'])){
   $UserName = htmlspecialchars($_POST['user']);
   $BasketUser = baskets::showBasket($UserName);
   $TabIdProd = array();
-  foreach ($BasketUser as $Key => $User) {
-    $TabIdProd.push($User[$Key].product);
+  for($i = 0, $size = count($BasketUser); $i < $size; ++$i) {
+    $TabIdProd.push($BasketUser[$i]['product']);
     }
-  $valeurs = implode (',', $TabIdProd);
-  echo $valeurs;
+  echo $TabIdProd;
+  //$valeurs = implode (',', $TabIdProd);
+  //echo $valeurs;
   //$smarty->assign('this', $thisProduct);
 }
 //On transmets les variables à Smarty
