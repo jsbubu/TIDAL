@@ -42,6 +42,19 @@ class products
         }
     } 
 
+    //Récuperer un produit par l'ID'
+    public function getneById($Id_prod){
+        try {
+            global $bdd;
+            $resultId = $bdd->query("SELECT * FROM Products WHERE id='$Id_prod'")->fetchAll(PDO::FETCH_ASSOC);
+            return ($resultId);
+        } 
+        catch (Exception $e) {
+            echo 'Erreur : ' . $e->getMessage() . '<br />';
+            echo 'N° : ' . $e->getCode();
+        }
+    } 
+
     //Ajout d'un produit dans la base de donnée
     public function addOneProduct($nom,$description,$filtre,$price,$base64,$img_type,$image_desc){
         try {
