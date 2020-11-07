@@ -6,8 +6,8 @@ if(isset($_POST['FindBasket'])){
   $UserName = htmlspecialchars($_POST['user']);
   $BasketUser = baskets::showBasket($UserName);
   $TabIdProd = array();
-  foreach ($BasketUser as &$User) {
-    $TabIdProd.push($User.product);
+  foreach ($BasketUser as $Key => $User) {
+    $TabIdProd.push($User[$Key].product);
     }
   $valeurs = implode (',', $TabIdProd);
   echo $valeurs;
