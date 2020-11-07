@@ -1,4 +1,4 @@
-<form method="POST" page="editProduct" enctype="multipart/form-data">  
+<form method="POST" page="" enctype="multipart/form-data">  
 <br><br>
     <div>
         <SELECT name="Name" size="1">

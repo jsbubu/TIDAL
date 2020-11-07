@@ -1,5 +1,5 @@
-<? php
-  class users
+<?php
+class users
 {
   //Récuperer tout les clients
   public function getAll(){

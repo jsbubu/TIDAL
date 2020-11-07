@@ -1,4 +1,4 @@
-<? php
+<?php
   class baskets
   {
     //Ajout d'un produit dans le panier
