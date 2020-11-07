@@ -1,4 +1,4 @@
-<? php
+<?php
 //On appelle la fonction getAll()
 $allUsers = users::getAll();
 //On appelle la fonction ()
