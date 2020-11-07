@@ -8,5 +8,5 @@ if(!empty($_POST['FindBasket'])){
   $smarty->assign('this', $thisProduct);
 }
 //On transmets les variables à Smarty
-$smarty->assign('customers', $allProducts);
+$smarty->assign('customers', $allUsers);
 ?>
