@@ -11,8 +11,8 @@ if(isset($_POST['FindBasket'])){
     array_push($TabIdProd,$BasketUser[$i]['product']);
     }
   echo $TabIdProd;
-  //$valeurs = implode (',', $TabIdProd);
-  //echo $valeurs;
+  $valeurs = implode (',', $TabIdProd);
+  echo $valeurs;
   //$smarty->assign('this', $thisProduct);
 }
 //On transmets les variables à Smarty
