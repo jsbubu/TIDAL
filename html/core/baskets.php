@@ -11,8 +11,19 @@
           echo 'Erreur : ' . $e->getMessage() . '<br/>';
           echo 'N° : ' . $e->getCode();
       }
+    }
+
+    public function showBasket($CustomerId){
+      try {
+          global $bdd;
+          $bdd->query("SELECT * FROM Basket WHERE customer='$CustomerId'");
+      } 
+      catch (Exception $e) {
+          echo 'Erreur : ' . $e->getMessage() . '<br/>';
+          echo 'N° : ' . $e->getCode();
+      }
+    }
+
   }
 
-
-  }
 ?>

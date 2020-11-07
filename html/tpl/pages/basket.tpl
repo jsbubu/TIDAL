@@ -1,12 +1,12 @@
-<form method="POST" page="" enctype="multipart/form-data">  
+<form method="POST" page="basket" enctype="multipart/form-data">  
 <br><br>
     <div>
-        <SELECT name="Name" size="1">
+        <SELECT name="user" size="1">
             <OPTION selected> Choisissez votre nom
             {foreach from=$customers item=users}   
-                <OPTION value="$users.id">{$users.familyname}</OPTION>
+                <OPTION value="$users.id">{$users.familyname} {$users.firstname}</OPTION>
             {/foreach}
-        </SELECT>  <button type="submit" name="find">Rechercher votre panier</button><br/>
+        </SELECT>  <button type="submit" name="FindBasket">Rechercher votre panier</button><br/>
     </div>
 <br><br>
 </form>
