@@ -46,7 +46,7 @@ class products
     public function getneById($Id_prod){
         try {
             global $bdd;
-            $resultId = $bdd->query("SELECT * FROM Products WHERE id IN '.$Id_prod.'")->fetchAll(PDO::FETCH_ASSOC);
+            $resultId = $bdd->query("SELECT * FROM Products WHERE id IN '$Id_prod'")->fetchAll(PDO::FETCH_ASSOC);
             return ($resultId);
         } 
         catch (Exception $e) {
