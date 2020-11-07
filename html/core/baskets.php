@@ -16,7 +16,7 @@
     public function showBasket($CustomerId){
       try {
           global $bdd;
-          $basket = $bdd->query("SELECT * FROM Basket WHERE customer='$CustomerId'");
+          $basket = $bdd->query("SELECT * FROM Basket WHERE customer='$CustomerId'")->fetchAll(PDO::FETCH_ASSOC);
           return ($basket);
       } 
       catch (Exception $e) {
