@@ -33,9 +33,9 @@ function filtre(lieu){
     var i = 1;
     for (const MyObj in destination.villes){
         let div = document.getElementById("grid-item-destination" + i);
-        if(getComputedStyle(div).display != "block"){
+        /*if(getComputedStyle(div).display != "block"){
             div.style.display = "block";
-        }
+        }*/
         if(lieu !== destination.villes[MyObj].filtre){
             div.style.display = "none";
         }
