@@ -28,7 +28,7 @@
                                 <div class="col-50">
                                             <label>Nom d'utilisateur</label>
                                             <input type="text" id="login" name="login" >
-                                        <div class="col-75">
+                                        <div class="col-50">
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" >
                                         </div>
