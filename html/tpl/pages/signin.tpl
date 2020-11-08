@@ -19,41 +19,19 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation" action="../../controllers/action/connexion.php" method="POST" >
+        <form name="reservation">
             <div class="row">
-                <div class="col-75">
+                <div class="col-50">
                     <div class="container">
                         <form >
                             <div class="row">
-                                <div class="col-50">
                                     <div class="row">
-                                        <div class="col-50"> <label>Nom</label>
-                                            <input type="text" id="nom" name="nom"  placeholder="Monnet">
-                                        </div>
-                                        <div class="col-50"><label>Prénom</label>
-                                            <input type="text" id="prenom" name="prenom"  placeholder="Jean">
-                                        </div>
-                                    </div>
-                                    <div>
-                                    <label > Adresse</label>
-                                    <input type="text" id="adr" name="adresse" 
-                                        placeholder="10 rue Jean-Monnet">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-75">
                                             <label>Nom d'utilisateur</label>
                                             <input type="text" id="login" name="login" >
-                
                                         </div>
-                                        <div class="col-75">
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" >
                                         </div>
-                                                  
-                                        </div>
-                                        </div>
-                                         
-                                        
                                     </div>
                                     <input type="submit" value="Appuyer pour valider" class="btn">
                                 </div>
