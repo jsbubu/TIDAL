@@ -1,4 +1,4 @@
-
+/*
 $(function(){
 
     fetch("web/json/liste.json")
@@ -44,7 +44,26 @@ function filtre(lieu){
         }
         i++;
     }
+};*/
+
+
+function filtre(lieu){
+    var i = 1;
+    {foreach from=$products item=product}
+        let div = document.getElementById("grid-item-destination" + i);
+        if(getComputedStyle(div).display != "block"){
+            div.style.display = "block";
+        }
+        if({$product.filtre} !== destination.villes[MyObj].filtre){
+            div.style.display = "none";
+        }
+        if({$product.filtre} == 'Tout'){
+            div.style.display = "block";
+        }
+        i++;
+    {/foreach}
 };
+
 
 /* function filtreprix(){
     var objet = localStorage.getItem("objet");
