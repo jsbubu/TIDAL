@@ -41,7 +41,6 @@ function filtre(lieu){
         if(lieu == 'Tout'){
             div.style.display = "block";
         }
-        i++;
     }
 };
 
