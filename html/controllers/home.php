@@ -4,4 +4,5 @@
 $allProducts = products::getAll();
 //On transmets les variables à Smarty
 $smarty->assign('products', $allProducts);
+//On appelle la fonction getAll()
 ?>
