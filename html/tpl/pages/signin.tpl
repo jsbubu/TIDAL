@@ -21,7 +21,6 @@
     <div class="formulaire">
         <form name="reservation" action="../projet/connexion.php" method="POST" >
             <div class="row">
-                <div class="col-75">
                     <div class="container">
                         <form >
                             <div class="row">
@@ -33,7 +32,6 @@
                                         
                                         </div>
                                         </div>
-                                    </div>
                                     <input type="submit" value="Connexion" class="btn">
                                 </div>
                         </form>
@@ -51,7 +49,7 @@
     <script>includeHTML()</script>
     <!-- Bouton -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/js/bouton.js"></script>
+    <script src="../../web/js/bouton.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
    
