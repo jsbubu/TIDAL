@@ -30,9 +30,8 @@ $(function(){
 function filtre(lieu){
     var objet = localStorage.getItem("objet");
     var destination = JSON.parse(objet);
-    var i = 1;
     for (const MyObj in destination.villes){
-        let div = document.getElementById("grid-item-destination" + i);
+        let div = document.getElementById("grid-item-destination");
         /*if(getComputedStyle(div).display != "block"){
             div.style.display = "block";
         }*/
