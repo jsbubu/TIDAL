@@ -49,7 +49,7 @@
     </div>
     <div data="/html/footer.html"></div>
      <!-- Header Footer-->
-    <script src="/js/includehtml.js"></script>
+    <script src="../../web/js/includehtml.js"></script>
     <script>includeHTML()</script>
     <!-- Bouton -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
