@@ -6,6 +6,14 @@
         <p>Dans cette société de surconsommation, nous pensons qu’il est nécessaire de changer notre vision de l’innovation. A chaque étape de conception et d’industrialisation, le développement durable est la priorité numéro un.  Nos meubles verts s’ouvrent, au même titre qu’un lave-linge, un téléviseur… c’est ce que les Français souhaitent pour leurs meubles. 60% des Français pensent que l’innovation dans l’ameublement doit et peut leur faciliter le quotidien.</p>
         <p>Envie de changer votre intérieur ? Envie de technologie ? Tout en respectant l'environnement ? Laissez-vous séduire par notre gamme de meubles connectés. Trägront c'est l'esprit nordique qui saura raviver votre maison.</p>
 </div>
+<div class="texte">
+        <h2>Filtres :</h2>
+        <button onclick="filtre('Tout')">Tout</button>
+        <button onclick="filtre('Amérique')">Table</button>
+        <button onclick="filtre('Artique')">Armoire</button>
+        <button onclick="filtre('Europe')">Commode</button>
+        <!-- <button onclick="filtreprix()">Prix</button> -->
+</div>
 
 <div class="grid-container-destination">
 {foreach from=$products item=product}
