@@ -13,7 +13,7 @@
 <body>
     <div data="/html/header.html"></div>
     <h1>Välkommen !</h1> 
-<p>Votre inscription s'est déroulé avec succés :) Si vous souahitez vous connecter cliquer <a href='../../tpl/pages/signin.tpl'>ici</a></p>
+<p>Votre inscription s'est déroulé avec succés :) Si vous souahitez vous connecter cliquer <a href='../../index.php?page=signin'>ici</a></p>
 <p>Sinon cliquez <a href='../../index.php'>ici</a> pour retourner à l'accueil du site</p> 
     <div data="/html/footer.html"></div>
      <!-- Header Footer-->
