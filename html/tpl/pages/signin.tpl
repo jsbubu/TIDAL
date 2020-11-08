@@ -19,26 +19,40 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation">
+        <form name="reservation" >
             <div class="row">
-                <div class="col-50">
+                <div class="col-75">
                     <div class="container">
                         <form >
                             <div class="row">
+                                <div class="col-75">
                                     <div class="row">
+                                        <div class="col-75">
                                             <label>Nom d'utilisateur</label>
                                             <input type="text" id="login" name="login" >
+                
                                         </div>
+                                        <div class="col-75">
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" >
                                         </div>
+                                                  
+                                        </div>
+                                        </div>
+                                         
+                                        
                                     </div>
                                     <input type="submit" value="Appuyer pour valider" class="btn">
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
                                 </div>
                             </div>
                             
                         </form>
                         <div>
+                            
+                           
+                        
                     </div>
                 </div>
                
