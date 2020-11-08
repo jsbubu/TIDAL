@@ -9,6 +9,22 @@ $(function(){
     var objet_json = JSON.stringify(data);
     localStorage.setItem("objet",objet_json);
     });
+
+    var objet = localStorage.getItem("objet");
+    var destination = JSON.parse(objet);
+    var i = 1;
+    for (const MyObj in destination.villes){
+        var dest = destination.villes[MyObj].name
+        $('.pays' + i).text(dest);
+        var prix = destination.villes[MyObj].prixDepart;
+        $('.prixDepart' + i).text("Pour " + prix + " €");
+        var destimage = destination.villes[MyObj].image
+        var x = document.getElementById("image" + i);
+        x.setAttribute("src", destimage);
+        temperature(destination.villes[MyObj].name, i);
+        i++;
+    }
+
 });
 
 function filtre(lieu){
@@ -29,7 +45,6 @@ function filtre(lieu){
         i++;
     }
 };
-
 
 /* function filtreprix(){
     var objet = localStorage.getItem("objet");
