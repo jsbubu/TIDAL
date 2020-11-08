@@ -45,11 +45,11 @@
     </div>
     <div data="../footer.tpl8"></div>
      <!-- Header Footer-->
-    <script src="../../web/js/includehtml.js"></script>
+    <script src="/js/includehtml.js"></script>
     <script>includeHTML()</script>
     <!-- Bouton -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="../../web/js/bouton.js"></script>
+    <script src="js/bouton.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
    
