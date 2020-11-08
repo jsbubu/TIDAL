@@ -43,7 +43,7 @@
             <li style="float: right;" class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Connectez-vous !</a>
                 <div class="dropdown-content">
-                    <a  href="index.php?page=">Identifiez-Vous</a>
+                    <a  href="index.php?page=signin">Identifiez-Vous</a>
                     <a  href="index.php?page=signup">Inscrivez-Vous</a>
                 </div>
             </li>
