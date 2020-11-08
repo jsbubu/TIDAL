@@ -31,7 +31,7 @@ function filtre(lieu){
     var objet = localStorage.getItem("objet");
     var destination = JSON.parse(objet);
     for (const MyObj in destination.villes){
-        let div = document.getElementById("grid-item-destination");
+        let div = document.getElementById("grid-item-destination1");
         /*if(getComputedStyle(div).display != "block"){
             div.style.display = "block";
         }*/
