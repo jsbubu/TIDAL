@@ -19,40 +19,26 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation" >
+        <form name="reservation">
             <div class="row">
-                <div class="col-75">
+                <div class="col-50">
                     <div class="container">
                         <form >
                             <div class="row">
-                                <div class="col-75">
                                     <div class="row">
-                                        <div class="col-75">
                                             <label>Nom d'utilisateur</label>
                                             <input type="text" id="login" name="login" >
-                
                                         </div>
-                                        <div class="col-75">
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" >
                                         </div>
-                                                  
-                                        </div>
-                                        </div>
-                                         
-                                        
                                     </div>
-                                    <input type="submit" value="Appuyer pour valider" class="btn">
-                                </div>
-                                <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
+                                    <input type="submit" value="Connexion" class="btn">
                                 </div>
                             </div>
                             
                         </form>
                         <div>
-                            
-                           
-                        
                     </div>
                 </div>
                
@@ -69,7 +55,8 @@
     <!-- Bouton -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/js/bouton.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    
 
    
 </body>
