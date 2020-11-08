@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div data="/html/header.html"></div>
+    <div data="../header.html"></div>
     <div class="texte">
     </div>
     <div class="texte">
@@ -45,7 +45,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a id="button"></a>
     </div>
-    <div data="/html/footer.html"></div>
+    <div data="../footer.html"></div>
      <!-- Header Footer-->
     <script src="../../web/js/includehtml.js"></script>
     <script>includeHTML()</script>
