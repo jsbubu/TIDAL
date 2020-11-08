@@ -12,6 +12,7 @@
         <button onclick="filtre('Amérique')">Table</button>
         <button onclick="filtre('Artique')">Armoire</button>
         <button onclick="filtre('Europe')">Commode</button>
+        <button onclick="filtre('Informatique')">Informatique</button>
         <!-- <button onclick="filtreprix()">Prix</button> -->
 </div>
 
