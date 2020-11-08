@@ -19,26 +19,39 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation">
+        <form name="reservation" action="../../controllers/action/connexion.php" method="POST" >
             <div class="row">
                 <div class="col-50">
                     <div class="container">
                         <form >
                             <div class="row">
+                                <div class="col-50">
                                     <div class="row">
+                                        <div class="col-75">
                                             <label>Nom d'utilisateur</label>
                                             <input type="text" id="login" name="login" >
+                
                                         </div>
-                                            <br><label>Mot de passe</label>
+                                        <div class="col-75">
+                                            <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" >
                                         </div>
+                                                  
+                                        </div>
+                                        </div>
+                                         
+                                        
                                     </div>
-                                    <input type="submit" value="Connexion" class="btn">
+                                    <input type="submit" value="Appuyer pour valider" class="btn">
                                 </div>
+                                
                             </div>
                             
                         </form>
                         <div>
+                            
+                           
+                        
                     </div>
                 </div>
                
@@ -55,8 +68,7 @@
     <!-- Bouton -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/js/bouton.js"></script>
-    
-    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
    
 </body>
