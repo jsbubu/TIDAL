@@ -8,7 +8,7 @@
                 "prixDepart" : 2000,
                 "prixJour" : 550,
                 "image" : "web/img/oslo.jpg",
-                "filtre" : "Armoire"
+                "filtre" : "Artique"
 
             },
 
@@ -19,7 +19,7 @@
                 "prixDepart" : 600,
                 "prixJour" : 500,
                 "image" : "web/img/stockholm.jpg",
-                "filtre" : "Table"
+                "filtre" : "Amérique"
 
             },
 
@@ -30,7 +30,7 @@
                 "prixDepart" : 700,
                 "prixJour" : 400,
                 "image" : "web/img/longyearbyen.jpg",
-                "filtre" : "Table"
+                "filtre" : "Amérique"
 
             },
 
@@ -41,7 +41,7 @@
                 "prixDepart" : 1000,
                 "prixJour" : 3000,
                 "image" : "web/img/vancouver.jpg",
-                "filtre" : "Commode"
+                "filtre" : "Europe"
 
             },
 
@@ -52,7 +52,7 @@
                 "prixDepart" : 200,
                 "prixJour" : 600,
                 "image" : "web/img/svolvaer.jpg",
-                "filtre" : "Table"
+                "filtre" : "Amérique"
 
             },
 
@@ -63,7 +63,7 @@
                 "prixDepart" : 1200,
                 "prixJour" : 800,
                 "image" : "web/img/reykjavik.jpg",
-                "filtre" : "Table"
+                "filtre" : "Amérique"
 
             }
         }
