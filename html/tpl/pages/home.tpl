@@ -9,9 +9,9 @@
 <div class="texte">
         <h2>Filtres :</h2>
         <button onclick="filtre('Tout')">Tout</button>
-        <button onclick="filtre('Amérique')">Table</button>
-        <button onclick="filtre('Artique')">Armoire</button>
-        <button onclick="filtre('Europe')">Commode</button>
+        <button onclick="filtre('Table')">Table</button>
+        <button onclick="filtre('Armoire')">Armoire</button>
+        <button onclick="filtre('Commode')">Commode</button>
         <button onclick="filtre('Informatique')">Informatique</button>
         <!-- <button onclick="filtreprix()">Prix</button> -->
 </div>
