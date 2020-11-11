@@ -28,10 +28,10 @@
                                 <div class="col-50">
                                     <div class="row">
                                         <div class="col-50"> <label>Nom</label>
-                                            <input type="text" id="nom" name="nom"  placeholder="Monnet">
+                                            <input type="text" id="nom" name="nom"  placeholder="Monnet" required>
                                         </div>
                                         <div class="col-50"><label>Prénom</label>
-                                            <input type="text" id="prenom" name="prenom"  placeholder="Jean">
+                                            <input type="text" id="prenom" name="prenom"  placeholder="Jean" required>
                                         </div>
                                     </div>
                                     <div>
@@ -42,12 +42,12 @@
                                     <div class="row">
                                         <div class="col-75">
                                             <label>Nom d'utilisateur</label>
-                                            <input type="text" id="login" name="login" >
+                                            <input type="text" id="login" name="login" required>
                 
                                         </div>
                                         <div class="col-75">
                                             <label>Mot de passe</label>
-                                            <input type="text" id="password" name="password" >
+                                            <input type="text" id="password" name="password" required>
                                         </div>
                                                   
                                         </div>
@@ -55,7 +55,7 @@
                                          
                                         
                                     </div>
-                                    <input type="submit" value="Appuyer pour valider" class="btn">
+                                    <input type="submit" value="Appuyer pour valider" class="btn" required>
                                 </div>
                                 <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
                                 </div>
