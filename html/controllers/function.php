@@ -36,9 +36,9 @@ mysql_stmt_close($stmt);
 }
 
 
-function createUser($conn, $first, $last, $adress, $login, $password) {
+function createUser($conn, $first, $last, $adress, $login, $hashedpwd) {
 
-    $sql = "INSERT INTO Customers (firstname, lastname, adress, username, password) VALUES (?, ?, ?, ?, ?);";
+    $sql = "INSERT INTO Customers (firstname, lastname, adress, username, password) VALUES ('$first', '$last', '$adress', '$login', '$hashedpwd');";
     $stmt = mysqli_stmt_init($conn); 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
     header("location: ../tpl/pages/signup.tpl?error=stmtfailed");
