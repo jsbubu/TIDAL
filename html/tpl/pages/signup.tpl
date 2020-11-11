@@ -37,7 +37,7 @@
                                     <div>
                                     <label > Adresse</label>
                                     <input type="text" id="adr" name="adresse" 
-                                        placeholder="10 rue Jean-Monnet">
+                                        placeholder="10 rue Jean-Monnet" required>
                                     </div>
                                     <div class="row">
                                         <div class="col-75">
