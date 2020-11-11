@@ -1,7 +1,7 @@
 <?php
-function pwdMatch($password, $password2) {
+function pwdMatch($password, $passwordRepeat) {
     $result;
-    if ($password !== $password2) {
+    if ($password !== $passwordRepeat) {
         $result = true;
         
     }else{
