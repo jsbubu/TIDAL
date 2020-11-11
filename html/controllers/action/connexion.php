@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
    echo "<script>document.location.href='../../index.php?page=signup'</script>;";
   }
   
-  $sql = "INSERT INTO Customers (firstname, lastname, adress, username, password) 
+  $sql = "INSERT INTO Customers (firstname, familyname, address, username, password) 
   VALUES ( '$first', '$last', '$adress', '$login', '$hashedpwd');";
 
   mysqli_query($conn, $sql);
