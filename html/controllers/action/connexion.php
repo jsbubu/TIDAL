@@ -8,7 +8,7 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }      
 
-require_once 'function.php';
+require_once '../function.php';
 if (isset($_POST['submit'])) {
   $first = $_POST['prenom'];
   $last = $_POST['nom'];
@@ -19,11 +19,11 @@ if (isset($_POST['submit'])) {
   $passwordRepeat = $_POST['password2'];
 
   if(pwdMatch($password, $passwordRepeat) !== false) {
-   header ("location: ./signup.php?error=pwdnomatch"); 
+   header ("location: ../../html/tpl/pages/signup.tpl?error=pwdnomatch"); 
   }
 
   if(uidExist($conn, $login) !== false){
-    header ("location: ./signup.php?error=UidAlreadyExist"); 
+    header ("location: ../../html/tpl/pages/signup.tpl?error=UidAlreadyExist"); 
   }
   
   $sql = "INSERT INTO users (first, last, adress, login, password) 
@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 
 } else {
 
-  header('Location: signup.html');      
+  header('Location: ../../html/tpl/pages/signup.tpl');      
 
 }
 
