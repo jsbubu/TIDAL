@@ -1,4 +1,5 @@
 <?php
+require_once 'action/connexion.php';
 function pwdMatch($password, $password2) {
     $result;
     if ($password !== $password2) {
