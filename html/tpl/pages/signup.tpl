@@ -48,7 +48,7 @@
                                         <div class="col-75">
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" required>
-                                        <?php
+                                        {php}
                                              if (isset($_GET["error"])){ 
                                                 if ($_GET["error"] == "UidAlreadyExist") {
                                                     echo "<p style='text-align : center;color:red;font-weight:bold;'>Nom d'utilisateur déjà utilisé</p>";
@@ -57,7 +57,7 @@
                                                     echo "<p style='text-align : center;color:red;font-weight:bold;'>Les mots de passe rentrés ne sont pas identiques</p>";
                                                 }
                                              }
-                                        ?>
+                                        {/php}
                                         </div>
                                         
                                                   
