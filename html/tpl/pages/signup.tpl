@@ -19,7 +19,7 @@
         <h2>"l'innovation se met au vert"</h2>
     </div>
     <div class="formulaire">
-        <form name="reservation" action="../../controllers/action/connexion.php" method="POST" >
+        <form name="reservation" action="../../controller/action/connexion.php" method="POST" >
             <div class="row">
                 <div class="col-75">
                     <div class="container">
@@ -49,17 +49,28 @@
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" required>
                                         </div>
-                                        
-                                                  
-                                        </div>
-                                        </div>
-                                         <div class="col-75">
+                                        <div class="col-75">
                                             <label>Repeter votre mot de passe</label>
                                             <input type="text" id="password2" name="password2" required>
                                         </div>
+                                                  
+                                        </div>
+                                        </div>
+                                        
+            
                                         
                                     </div>
-                                    <input type="submit" value="Appuyer pour valider" class="btn" required>
+                                    <input type="submit" value="Appuyer pour valider" class="btn" name="submit">
+                                    <?php
+                                             if (isset($_GET["error"])){ 
+                                                if ($_GET["error"] == "UidAlreadyExist") {
+                                                    echo "<p style='text-align : center;color:red;font-weight:bold;'>Nom d'utilisateur déjà utilisé</p>";
+                                                }
+                                                else if ($_GET["error"] == "pwdnomatch") {
+                                                    echo "<p style='text-align : center;color:red;font-weight:bold;'>Les mots de passe rentrés ne sont pas identiques</p>";
+                                                }
+                                             }
+                                        ?>
                                 </div>
                                 <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
                                 </div>
