@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
   }
 
   if(uidExist($conn, $login) !== false){
-    echo "<script>alert('le nom d'utilisateur rentré est déjà utilisé')</script>;"; 
+   echo "<script>alert('uid deja utilisé')</script>;"; 
    echo "<script>document.location.href='../../index.php?page=signup'</script>;";
     exit();
     
