@@ -38,7 +38,7 @@ mysql_stmt_close($stmt);
 
 function createUser($conn, $first, $last, $adress, $login, $password) {
 
-    $sql = "INSERT INTO Customers (first, last, adress, login, password) VALUES (?, ?, ?, ?, ?);";
+    $sql = "INSERT INTO Customers (firstname, lastname, adress, username, password) VALUES (?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn); 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
     header("location: ../tpl/pages/signup.php?error=stmtfailed");
