@@ -1,5 +1,4 @@
 <?php
-require_once 'action/connexion.php';
 function pwdMatch($password, $password2) {
     $result;
     if ($password !== $password2) {
@@ -37,7 +36,7 @@ mysql_stmt_close($stmt);
 }
 
 
-function createUser($conn, $first, $last, $adress, $login, $hashedpwd) {
+function createUser($conn, $first, $last, $address, $login, $hashedpwd) {
 
     $sql = "INSERT INTO Customers (firstname, familyname, adress, username, password) VALUES (?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn); 
