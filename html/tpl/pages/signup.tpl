@@ -61,16 +61,6 @@
                                         
                                     </div>
                                     <input type="submit" value="Appuyer pour valider" class="btn" name="submit">
-                                    <?php
-                                             if (isset($_GET["error"])){ 
-                                                if ($_GET["error"] == "UidAlreadyExist") {
-                                                    echo "<p style='text-align : center;color:red;font-weight:bold;'>Nom d'utilisateur déjà utilisé</p>";
-                                                }
-                                                else if ($_GET["error"] == "pwdnomatch") {
-                                                    echo "<p style='text-align : center;color:red;font-weight:bold;'>Les mots de passe rentrés ne sont pas identiques</p>";
-                                                }
-                                             }
-                                        ?>
                                 </div>
                                 <div class="g-recaptcha" data-sitekey="6LeeRdcZAAAAAIiq7VdLYq38rU-99By-BL1cXo-A" required>
                                 </div>
