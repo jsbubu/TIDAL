@@ -19,11 +19,11 @@ if (isset($_POST['submit'])) {
   $passwordRepeat = $_POST['password2'];
 
   if(pwdMatch($password, $passwordRepeat) !== false) {
-   header ("location: ../../html/tpl/pages/signup.tpl?error=pwdnomatch"); 
+   header ("location: ../../tpl/pages/signup.tpl?error=pwdnomatch"); 
   }
 
   if(uidExist($conn, $login) !== false){
-    header ("location: ../../html/tpl/pages/signup.tpl?error=UidAlreadyExist"); 
+    header ("location: ../../tpl/pages/signup.tpl?error=UidAlreadyExist"); 
   }
   
   $sql = "INSERT INTO users (first, last, adress, login, password) 
@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 
 } else {
 
-  header('Location: ../../html/tpl/pages/signup.tpl');      
+  header('Location: ../../tpl/pages/signup.tpl');      
 
 }
 
