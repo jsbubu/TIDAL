@@ -20,12 +20,12 @@ if (isset($_POST['submit'])) {
 
   if(pwdMatch($password, $passwordRepeat) !== false) {
    echo "<script>alert('les mdp sont les memes')</script>;"; 
-   echo "<script>document.location.href='../../tpl/pages/signup.tpl'</script>;";
+   echo "<script>document.location.href='../../index.php?page=signup'</script>;";
   }
 
   if(uidExist($conn, $login) !== false){
     echo "<script>alert('le nom d'utilisateur rentré est déjà utilisé')</script>;"; 
-   echo "<script>document.location.href='../../tpl/pages/signup.tpl'</script>;";
+   echo "<script>document.location.href='../../index.php?page=signup'</script>;";
   }
   
   $sql = "INSERT INTO Customers (firstname, lastname, adress, username, password) 
@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
 
 } else {
 
-  header('Location: ../../tpl/pages/signup.tpl');      
+  header('Location: ../../index.php?page=signup');      
 
 }
 
