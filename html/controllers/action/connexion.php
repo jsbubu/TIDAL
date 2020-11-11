@@ -19,11 +19,13 @@ if (isset($_POST['submit'])) {
   $passwordRepeat = $_POST['password2'];
 
   if(pwdMatch($password, $passwordRepeat) !== false) {
-   header ("location: ../../tpl/pages/signin.tpl"); 
+   echo "<script>alert('les mdp sont les memes')</script>;"; 
+   echo "<script>document.location.href='signup.php'</script>;";
   }
 
   if(uidExist($conn, $login) !== false){
-    header ("location: ../../tpl/pages/signup.tpl?error=UidAlreadyExist"); 
+    echo "<script>alert('le nom d'utilisateur rentré est déjà utilisé')</script>;"; 
+   echo "<script>document.location.href='signup.php'</script>;";
   }
   
   $sql = "INSERT INTO users (first, last, adress, login, password) 
