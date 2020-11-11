@@ -13,7 +13,7 @@ function pwdMatch($password, $password2) {
 
 function uidExist($conn, $login) {
 
-    $sql = "SELECT * FROM Customers WHERE login = ?;";
+    $sql = "SELECT * FROM Customers WHERE username = ?;";
     $stmt = mysqli_stmt_init($conn); 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
     header("location: ../tpl/pages/signup.php?error=stmtfailed");
