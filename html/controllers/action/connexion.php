@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
   $passwordRepeat = $_POST['password2'];
 
   if(pwdMatch($password, $passwordRepeat) !== false) {
-   header ("location: ../../tpl/pages/signup.tpl?error=pwdnomatch"); 
+   header ("location: ../../tpl/pages/signin.tpl"); 
   }
 
   if(uidExist($conn, $login) !== false){
