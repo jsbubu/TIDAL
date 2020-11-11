@@ -49,14 +49,14 @@
                                             <label>Mot de passe</label>
                                             <input type="text" id="password" name="password" required>
                                         </div>
-                                        <div class="col-75">
-                                            <label>Repeter votre mot de passe</label>
-                                            <input type="text" id="password2" name="password2" required>
-                                        </div>
+                                        
                                                   
                                         </div>
                                         </div>
-                                         
+                                         <div class="col-75">
+                                            <label>Repeter votre mot de passe</label>
+                                            <input type="text" id="password2" name="password2" required>
+                                        </div>
                                         
                                     </div>
                                     <input type="submit" value="Appuyer pour valider" class="btn" required>
